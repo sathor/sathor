@@ -9314,12 +9314,19 @@ input[type='email']:focus::placeholder {
   position: relative;
   z-index: 3; }
 
-  .header__logo2 {
-    margin-left: auto;
-    margin-right: 260px;
-    /* margin-left: 5.8125rem; */
-    position: relative;
-    z-index: 3; }
+.header__logo2 {
+  margin-left: auto;
+  margin-right: 260px;
+  /* margin-left: 5.8125rem; */
+  position: relative;
+  z-index: 3; }
+
+.regist__logo {
+  margin-left: auto;
+  margin-right: 10px;
+  /* margin-left: 5.8125rem; */
+  position: relative;
+  z-index: 3; }
 
 @media (max-width: 767px) {
   /* line 184, /var/www/kta/sass/components/page-elements/_header.scss */
