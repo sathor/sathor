@@ -1,0 +1,544 @@
+Uri: http://kta.kyiv.ua/
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\index.htm
+Content Type: text/html
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/dist/main.css?v=008
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\dist\main.css
+Content Type: text/css
+
+Uri: http://kta.kyiv.ua/sample-page/feed/
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\sample-page\feed\index.rss
+Content Type: application/rss+xml
+
+Uri: http://kta.kyiv.ua/wp-json/
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-json\index.json
+Content Type: application/json
+
+Uri: http://kta.kyiv.ua/xmlrpc.php?rsd
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\xmlrpc.xml
+Content Type: text/xml
+
+Uri: http://kta.kyiv.ua/wp-includes/wlwmanifest.xml
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-includes\wlwmanifest.xml
+Content Type: text/xml
+
+Uri: http://kta.kyiv.ua/wp-json/oembed/1.0/embed?url=http:%2F%2Fkta.kyiv.ua%2F
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-json\oembed\1.0\embed.json
+Content Type: application/json
+
+Uri: http://kta.kyiv.ua/wp-json/oembed/1.0/embed?url=http:%2F%2Fkta.kyiv.ua%2F&format=xml
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-json\oembed\1.0\embed.xml
+Content Type: text/xml
+
+Uri: http://kta.kyiv.ua/en/
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\en\index.htm
+Content Type: text/html
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/logo.svg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\logo.svg
+Content Type: image/svg+xml
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/232376.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\232376.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/06/головна.jpeg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\06\головна.jpeg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/photo_2018-07-02_16-29-07.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\photo_2018-07-02_16-29-07.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/photo_2018-07-02_16-28-50.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\photo_2018-07-02_16-28-50.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/photo_2018-07-02_16-29-01.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\photo_2018-07-02_16-29-01.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/photo_2018-07-02_16-28-56.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\photo_2018-07-02_16-28-56.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/photo_2018-07-02_16-29-17_5.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\photo_2018-07-02_16-29-17_5.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/photo_2018-07-02_16-29-19.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\photo_2018-07-02_16-29-19.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/Без-названия-1.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\Без-названия-1.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/aloft.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\aloft.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/98412896.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\98412896.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/1438326296.3025_11M_logo_color-2.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\1438326296.3025_11M_logo_color-2.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/1463431872.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\1463431872.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/cncat_image.png
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\cncat_image.png
+Content Type: image/png
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/hotel-holiday-inn-kiev.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\hotel-holiday-inn-kiev.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/лого.png
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\лого.png
+Content Type: image/png
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/30607234.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\30607234.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/лого-8.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\лого-8.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/131386047.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\131386047.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/logo-2.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\logo-2.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/Fairmont-640x449.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\Fairmont-640x449.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/лого-7.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\лого-7.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/ukraine-hotel-kiev-02.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\ukraine-hotel-kiev-02.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/лого-6.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\лого-6.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/10880131.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\10880131.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/лого-CITYHOTEL-Kiev.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\лого-CITYHOTEL-Kiev.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/139727319.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\139727319.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/лого_русь.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\лого_русь.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/kif.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\kif.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/kyiv-turism-awords.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\kyiv-turism-awords.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/Kyiv-nice-for-MICE.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\Kyiv-nice-for-MICE.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/IFTM-Top-Resa-2017.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\IFTM-Top-Resa-2017.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/images/footer-photo.JPG
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\images\footer-photo.JPG
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/images/logo-dev.png
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\images\logo-dev.png
+Content Type: image/png
+
+Uri: http://kta.kyiv.ua/wp-includes/js/wp-embed.min.js?ver=4.9.10
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-includes\js\wp-embed.min.js
+Content Type: application/javascript
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/dist/main.js?v=005
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\dist\main.js
+Content Type: application/javascript
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/js/main.js?v=005
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\js\main.js
+Content Type: application/javascript
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/232376-300x188.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\232376-300x188.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/232376-768x480.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\232376-768x480.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/06/головна-300x197.jpeg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\06\головна-300x197.jpeg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/06/головна-768x505.jpeg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\06\головна-768x505.jpeg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/06/головна-1024x674.jpeg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\06\головна-1024x674.jpeg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/photo_2018-07-02_16-29-07-300x162.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\photo_2018-07-02_16-29-07-300x162.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/photo_2018-07-02_16-28-50-274x300.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\photo_2018-07-02_16-28-50-274x300.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/photo_2018-07-02_16-29-01-272x300.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\photo_2018-07-02_16-29-01-272x300.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/photo_2018-07-02_16-28-56-273x300.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\photo_2018-07-02_16-28-56-273x300.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/photo_2018-07-02_16-29-17_5-272x300.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\photo_2018-07-02_16-29-17_5-272x300.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/photo_2018-07-02_16-29-19-135x300.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\photo_2018-07-02_16-29-19-135x300.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/Без-названия-1-300x200.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\Без-названия-1-300x200.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/98412896-300x200.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\98412896-300x200.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/98412896-768x512.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\98412896-768x512.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/1463431872-300x176.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\1463431872-300x176.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/1463431872-768x451.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\1463431872-768x451.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/hotel-holiday-inn-kiev-300x164.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\hotel-holiday-inn-kiev-300x164.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/hotel-holiday-inn-kiev-768x421.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\hotel-holiday-inn-kiev-768x421.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/30607234-300x200.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\30607234-300x200.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/30607234-768x512.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\30607234-768x512.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/30607234-1024x682.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\30607234-1024x682.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/131386047-300x187.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\131386047-300x187.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/131386047-768x478.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\131386047-768x478.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/131386047-1024x638.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\131386047-1024x638.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/Fairmont-640x449-300x210.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\Fairmont-640x449-300x210.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/ukraine-hotel-kiev-02-300x150.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\ukraine-hotel-kiev-02-300x150.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/ukraine-hotel-kiev-02-768x384.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\ukraine-hotel-kiev-02-768x384.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/10880131-300x183.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\10880131-300x183.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/10880131-768x469.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\10880131-768x469.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/139727319-300x225.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\139727319-300x225.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/139727319-768x576.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\139727319-768x576.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/fonts/fontawesome-webfont.eot?v=4.7.0
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\fonts\fontawesome-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/fonts/fontawesome-webfont.eot?
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\fonts\fontawesome-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/fonts/fontawesome-webfont.woff2?v=4.7.0
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\fonts\fontawesome-webfont.bin
+Content Type: application/octet-stream
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/fonts/fontawesome-webfont.woff?v=4.7.0
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\fonts\fontawesome-webfont.woff
+Content Type: application/font-woff
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/fonts/fontawesome-webfont.ttf?v=4.7.0
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\fonts\fontawesome-webfont-1.bin
+Content Type: application/octet-stream
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/fonts/fontawesome-webfont.svg?v=4.7.0
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\fonts\fontawesome-webfont.svg
+Content Type: image/svg+xml
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/dist/ajax-loader.gif
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\dist\ajax-loader.gif
+Content Type: image/gif
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/dist/fonts/slick.eot
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\dist\fonts\slick.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/dist/fonts/slick.eot?
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\dist\fonts\slick-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/dist/fonts/slick.woff
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\dist\fonts\slick.woff
+Content Type: application/font-woff
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/dist/fonts/slick.ttf
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\dist\fonts\slick.bin
+Content Type: application/octet-stream
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/dist/fonts/slick.svg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\dist\fonts\slick.svg
+Content Type: image/svg+xml
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/fonts/Gotham-Light.eot
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\fonts\Gotham-Light.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/fonts/Gotham-Light.eot?
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\fonts\Gotham-Light-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/fonts/Gotham-Light.woff
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\fonts\Gotham-Light.woff
+Content Type: application/font-woff
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/fonts/Gotham-Light.ttf
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\fonts\Gotham-Light.bin
+Content Type: application/octet-stream
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/fonts/Gotham-Medium.woff
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\fonts\Gotham-Medium.woff
+Content Type: application/font-woff
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/fonts/Gotham-Book.eot
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\fonts\Gotham-Book.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/fonts/Gotham-Book.eot?
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\fonts\Gotham-Book-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/fonts/Gotham-Book.woff
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\fonts\Gotham-Book.woff
+Content Type: application/font-woff
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/fonts/Gotham-Book.ttf
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\fonts\Gotham-Book.bin
+Content Type: application/octet-stream
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/dist/sprite.png
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\dist\sprite.png
+Content Type: image/png
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/images/facebook-yellow.png
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\images\facebook-yellow.png
+Content Type: image/png
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/images/insta-icon-yellow.png
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\images\insta-icon-yellow.png
+Content Type: image/png
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/images/yt-icon-yellow.png
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\images\yt-icon-yellow.png
+Content Type: image/png
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/images/linkedin-yellow.png
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\images\linkedin-yellow.png
+Content Type: image/png
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/images/bottom-border.png
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\images\bottom-border.png
+Content Type: image/png
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/images/top-border.png
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\images\top-border.png
+Content Type: image/png
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/images/icons/right-thin-chevron.png
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\images\icons\right-thin-chevron.png
+Content Type: image/png
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/images/down.png
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\images\down.png
+Content Type: image/png
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/images/partner-border.png
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\images\partner-border.png
+Content Type: image/png
+
+Uri: http://kta.kyiv.ua/wp-content/themes/assoc/images/watch-button.png
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\themes\assoc\images\watch-button.png
+Content Type: image/png
+
+Uri: http://kta.kyiv.ua/en/home/feed/
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\en\home\feed\index.rss
+Content Type: application/rss+xml
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/232376-1.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\232376-1.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/06/головна-1.jpeg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\06\головна-1.jpeg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/photo_2018-07-02_16-29-07-1.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\photo_2018-07-02_16-29-07-1.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/photo_2018-07-02_16-28-50-1.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\photo_2018-07-02_16-28-50-1.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/photo_2018-07-02_16-29-01-1.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\photo_2018-07-02_16-29-01-1.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/photo_2018-07-02_16-28-56-1.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\photo_2018-07-02_16-28-56-1.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/photo_2018-07-02_16-29-17_5-1.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\photo_2018-07-02_16-29-17_5-1.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/photo_2018-07-02_16-29-19-1.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\photo_2018-07-02_16-29-19-1.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/cncat_image-1.png
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\cncat_image-1.png
+Content Type: image/png
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/лого-CITYHOTEL-Kiev-1.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\лого-CITYHOTEL-Kiev-1.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/kif-1.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\kif-1.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/kyiv-turism-awords-1.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\kyiv-turism-awords-1.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/Kyiv-nice-for-MICE-1.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\Kyiv-nice-for-MICE-1.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/IFTM-Top-Resa-2017-1.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\IFTM-Top-Resa-2017-1.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/232376-1-300x188.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\232376-1-300x188.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/07/232376-1-768x480.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\07\232376-1-768x480.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/06/головна-1-300x197.jpeg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\06\головна-1-300x197.jpeg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/06/головна-1-768x505.jpeg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\06\головна-1-768x505.jpeg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/06/головна-1-1024x674.jpeg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\06\головна-1-1024x674.jpeg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/photo_2018-07-02_16-29-07-1-300x162.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\photo_2018-07-02_16-29-07-1-300x162.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/photo_2018-07-02_16-28-50-1-274x300.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\photo_2018-07-02_16-28-50-1-274x300.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/photo_2018-07-02_16-29-01-1-272x300.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\photo_2018-07-02_16-29-01-1-272x300.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/photo_2018-07-02_16-28-56-1-273x300.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\photo_2018-07-02_16-28-56-1-273x300.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/photo_2018-07-02_16-29-17_5-1-272x300.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\photo_2018-07-02_16-29-17_5-1-272x300.jpg
+Content Type: image/jpeg
+
+Uri: http://kta.kyiv.ua/wp-content/uploads/2018/04/photo_2018-07-02_16-29-19-1-135x300.jpg
+File Name: c:\Downloaded Web Sites\kta.kyiv.ua\wp-content\uploads\2018\04\photo_2018-07-02_16-29-19-1-135x300.jpg
+Content Type: image/jpeg
+
