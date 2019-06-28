@@ -25807,13 +25807,22 @@ $(document).ready(function() {
         onLeave: function(index, nextIndex, direction){
           var leavingSection = $(this);
 
-          if(index == 1 && direction =='down' || index == 3 && direction =='up'){
+          if(index == 4 && direction =='down' || index == 6 && direction =='up'){
             $('.about-us h2').addClass('bounce animated');
           }
 
-          if(index == 2) {
+          if(index == 5) {
             $('.about-us h2').removeClass('bounce animated');
+		  }
+
+		  if(index == 5 && direction =='down' || index == 7 && direction =='up'){
+            $('.about-us h2').addClass('bounce animated');
           }
+
+          if(index == 6) {
+            $('.about-us h2').removeClass('bounce animated');
+		  }
+
 
           if(index == 6 && direction =='down'){
             $('.partners__wrapper').addClass('animated');

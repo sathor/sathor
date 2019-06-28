@@ -9508,6 +9508,24 @@ input[type='email']:focus::placeholder {
   position: absolute;
   z-index: 3; }
 
+.down.arrow_video {
+    margin-top: 50px;
+    bottom: 0px;
+    /* bottom: 4.0625rem; */
+    height: 40px;
+    height: 2.5rem;
+    width: 40px;
+    width: 2.5rem;
+    -webkit-animation: bounce 10s infinite;
+    animation: bounce 10s infinite;
+    background: url("../images/down.png") no-repeat center;
+    background-size: contain;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 3; }
+
 @-webkit-keyframes bounce {
   0%,
   10%,
