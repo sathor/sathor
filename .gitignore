@@ -6,3 +6,4 @@
 /dev
 /dev/*
 *.mp4
+*.code-workspace
