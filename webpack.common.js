@@ -34,7 +34,7 @@ module.exports = {
                         loader: 'file-loader',
                         options: {
                             name: '[name].[ext]',
-                            outputPath: 'img'
+                            outputPath: 'images'
                         }
                     },
                 ]
@@ -42,7 +42,13 @@ module.exports = {
             {
                 test: /\.(ico|woff|woff2|eot|ttf|otf)$/,
                 use: [
-                    'file-loader'
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            name: '[name].[ext]',
+                            outputPath: 'fonts'
+                        }
+                    },
                 ]
             },
             {
@@ -59,9 +65,9 @@ module.exports = {
         }),
         new webpack.HotModuleReplacementPlugin(),
         new VueLoaderPlugin(),
-        new CopyPlugin([
-            {from: './src/video', to: './video'}
-        ]),
+        // new CopyPlugin([
+        //     {from: './src/video', to: './video'}
+        // ]),
         // new FaviconsWebpackPlugin('./src/img/favicon.png')
     ],
 };
