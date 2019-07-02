@@ -59,9 +59,9 @@ module.exports = {
         }),
         new webpack.HotModuleReplacementPlugin(),
         new VueLoaderPlugin(),
-        new CopyPlugin([
-            {from: './src/video', to: './video'}
-        ]),
+        // new CopyPlugin([
+        //     {from: './src/video', to: './video'}
+        // ]),
         // new FaviconsWebpackPlugin('./src/img/favicon.png')
     ],
 };
