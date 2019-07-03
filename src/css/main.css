@@ -9021,6 +9021,10 @@ input[type='email']:focus::placeholder {
   .footer .contacts .mail {
     margin-right: 20px;
     margin-right: 1.25rem; }
+
+.footer .contacts p {
+  margin-right: 20px;
+  margin-right: 1.25rem; }
   /* line 81, /var/www/kta/sass/components/page-elements/_footer.scss */
   .footer .development {
     -ms-flex-wrap: wrap;
@@ -9469,7 +9473,7 @@ input[type='email']:focus::placeholder {
   display: block;
   height: 100%;
   left: 0;
-  opacity: .4;
+  opacity: .8;
   position: absolute;
   top: 0;
   width: 100%; }
@@ -10495,3 +10499,12 @@ input[type='email']:focus::placeholder {
   /* line 45, /var/www/kta/sass/components/page-elements/_slider.scss */
   .fp-controlArrow {
     bottom: 0; } }
+
+
+#privacy-policy {
+  -webkit-appearance:checkbox;
+}
+
+
+
+
