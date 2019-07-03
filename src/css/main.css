@@ -8323,33 +8323,63 @@ input[type='email']:focus::placeholder {
   transition: height .4s ease-out 0s; }
 
 /* line 112, /var/www/kta/sass/components/page-elements/_about-us.scss */
-.about-us:hover .line-1 i,
+/* .about-us:hover .line-1 i,
 .about-us:hover .line-2 i,
 .about-us:hover .line-3 i,
 .about-us:hover .line-4 i {
   height: 100%;
-  width: 100%; }
+  width: 100%; } */
 
 /* line 120, /var/www/kta/sass/components/page-elements/_about-us.scss */
-.about-us:hover .line-1 i {
+/* .about-us:hover .line-1 i {
+  -webkit-transition: width .4s ease-out 0s;
+  -o-transition: width .4s ease-out 0s;
+  transition: width .4s ease-out 0s; } */
+
+/* line 124, /var/www/kta/sass/components/page-elements/_about-us.scss */
+/* .about-us:hover .line-2 i {
+  -webkit-transition: height .4s ease-out .4s;
+  -o-transition: height .4s ease-out .4s;
+  transition: height .4s ease-out .4s; } */
+
+/* line 128, /var/www/kta/sass/components/page-elements/_about-us.scss */
+/* .about-us:hover .line-3 i {
+  -webkit-transition: width .4s ease-out .8s;
+  -o-transition: width .4s ease-out .8s;
+  transition: width .4s ease-out .8s; } */
+
+/* line 132, /var/www/kta/sass/components/page-elements/_about-us.scss */
+/* .about-us:hover .line-4 i {
+  -webkit-transition: height .4s ease-out 1.2s;
+  -o-transition: height .4s ease-out 1.2s;
+  transition: height .4s ease-out 1.2s; } */
+
+.about-us .animated .line-1 i,
+.about-us .animated .line-2 i,
+.about-us .animated .line-3 i,
+.about-us .animated .line-4 i {
+  height: 100%;
+  width: 100%; }
+
+.about-us .animated .line-1 i {
   -webkit-transition: width .4s ease-out 0s;
   -o-transition: width .4s ease-out 0s;
   transition: width .4s ease-out 0s; }
 
-/* line 124, /var/www/kta/sass/components/page-elements/_about-us.scss */
-.about-us:hover .line-2 i {
+/* line 124, /var/www/kta/sass/components/page-elements/_partners.scss */
+.about-us .animated .line-2 i {
   -webkit-transition: height .4s ease-out .4s;
   -o-transition: height .4s ease-out .4s;
   transition: height .4s ease-out .4s; }
 
-/* line 128, /var/www/kta/sass/components/page-elements/_about-us.scss */
-.about-us:hover .line-3 i {
+/* line 128, /var/www/kta/sass/components/page-elements/_partners.scss */
+.about-us .animated .line-3 i {
   -webkit-transition: width .4s ease-out .8s;
   -o-transition: width .4s ease-out .8s;
   transition: width .4s ease-out .8s; }
 
-/* line 132, /var/www/kta/sass/components/page-elements/_about-us.scss */
-.about-us:hover .line-4 i {
+/* line 132, /var/www/kta/sass/components/page-elements/_partners.scss */
+.about-us .animated .line-4 i {
   -webkit-transition: height .4s ease-out 1.2s;
   -o-transition: height .4s ease-out 1.2s;
   transition: height .4s ease-out 1.2s; }
@@ -8456,6 +8486,7 @@ input[type='email']:focus::placeholder {
     -webkit-transition: height .4s ease-out 1.2s;
     -o-transition: height .4s ease-out 1.2s;
     transition: height .4s ease-out 1.2s; } }
+  
 
 @media (max-width: 767px) {
   /* line 229, /var/www/kta/sass/components/page-elements/_about-us.scss */
@@ -8730,6 +8761,8 @@ input[type='email']:focus::placeholder {
   -webkit-transition: height .4s ease-out 1.2s;
   -o-transition: height .4s ease-out 1.2s;
   transition: height .4s ease-out 1.2s; }
+
+
 
 @media (max-width: 1200px) {
   /* line 219, /var/www/kta/sass/components/page-elements/_activity.scss */

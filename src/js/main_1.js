@@ -25811,20 +25811,34 @@ $(document).ready(function() {
 
           if(index == 4 && direction =='down' || index == 6 && direction =='up'){
             $('.about-us h2').addClass('bounce animated');
-          }
-
+		  }
+		  
+		  // program section index=6
           if(index == 5) {
             $('.about-us h2').removeClass('bounce animated');
 		  }
 
 		  if(index == 5 && direction =='down' || index == 7 && direction =='up'){
             $('.about-us h2').addClass('bounce animated');
+		  }
+
+		  if(index == 5 && direction =='down' || index == 7 && direction =='up'){
+            $('.col.photo').addClass('animated');
+		  }
+
+		  if(index == 1 && direction =='down'){
+            $('.col.photo').addClass('animated');
+		  }
+		  
+		  if(index == 6){
+            $('.col.photo').removeClass('animated');
           }
 
           if(index == 6) {
             $('.about-us h2').removeClass('bounce animated');
 		  }
 
+		  // location section index=7
 		  if(index == 1 && direction =='down'){
             $('.partners__wrapper').addClass('animated');
           }
