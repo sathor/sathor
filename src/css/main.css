@@ -8366,12 +8366,12 @@ input[type='email']:focus::placeholder {
 /* line 146, /var/www/kta/sass/components/page-elements/_about-us.scss */
 .about-us__photo:after, .about-us__photo:before {
   height: 75px;
-  height: 4.6875rem;
+  /* height: 4.6875rem; */
   content: '';
   display: block;
   left: 0;
   position: absolute;
-  width: 101%;
+  width: 101%;  
   z-index: 1; }
 
 /* line 157, /var/www/kta/sass/components/page-elements/_about-us.scss */

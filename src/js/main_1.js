@@ -25825,6 +25825,9 @@ $(document).ready(function() {
             $('.about-us h2').removeClass('bounce animated');
 		  }
 
+		  if(index == 1 && direction =='down'){
+            $('.partners__wrapper').addClass('animated');
+          }
 
           if(index == 6 && direction =='down'){
             $('.partners__wrapper').addClass('animated');
