@@ -3,7 +3,7 @@ const common = require('./webpack.common.js');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
-const tinyPngWebpackPlugin = require('tinypng-webpack-plugin');
+// const tinyPngWebpackPlugin = require('tinypng-webpack-plugin');
 
 
 module.exports = merge(common, {
@@ -45,11 +45,12 @@ module.exports = merge(common, {
     plugins: [
         new MiniCssExtractPlugin({
             filename: 'css/style.css',
-        }),
-        new tinyPngWebpackPlugin({
-            key:"VBDkBCpEXLRet4VLaS4IBUGdwNi6YQL4",
-            ext: ['png', 'jpeg', 'jpg'],//img ext name
         })
+        //,
+        // new tinyPngWebpackPlugin({
+        //     key:"VBDkBCpEXLRet4VLaS4IBUGdwNi6YQL4",
+        //     ext: ['png', 'jpeg', 'jpg'],//img ext name
+        // })
     ],
     optimization: {
         minimizer: [
