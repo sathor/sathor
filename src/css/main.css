@@ -8550,18 +8550,33 @@ input[type='email']:focus::placeholder {
 
 /* line 47, /var/www/kta/sass/components/page-elements/_activity.scss */
 .activity .action__description {
-  font-size: 11px;
-  font-size: 0.6875rem;
+  height: 150px;
+  width: 520px;
+  font-size: 12px;
+  /* font-size: 0.6875rem; */
   margin-top: 26px;
-  margin-top: 1.625rem;
+  /* margin-top: 1.625rem; */
   font-weight: 500;
-  line-height: 1.9;
+  line-height: 15px;
   max-height: 0;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: scroll;
   text-transform: uppercase;
   -webkit-transition: all .5s ease-in-out;
   -o-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out; }
+
+.activity .action__description ul{
+  list-style: square !important;
+}
+
+.activity .action__description ul li{
+  list-style-type: square;
+}
+
+.activity .action__description ul li ul li{
+  list-style-type: disc;
+}
 
 /* line 58, /var/www/kta/sass/components/page-elements/_activity.scss */
 .activity .action:hover .action__description {
@@ -8615,8 +8630,8 @@ input[type='email']:focus::placeholder {
 
 /* line 94, /var/www/kta/sass/components/page-elements/_activity.scss */
 .activity .action:hover h3 {
-  font-size: 24px;
-  font-size: 1.5rem;
+  font-size: 22px;
+  /* font-size: 1.5rem; */
   left: 0;
   -webkit-transform: none;
   -ms-transform: none;
@@ -9864,19 +9879,31 @@ input[type='email']:focus::placeholder {
   width: 100%; }
 
 /* line 112, /var/www/kta/sass/components/page-elements/_order-form.scss */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   height: 3px;
-  width: 3px; }
+  width: 3px; } */
+::-webkit-scrollbar {
+  height: 6px;
+  width: 6px; }
 
 /* line 117, /var/www/kta/sass/components/page-elements/_order-form.scss */
-::-webkit-scrollbar-track {
+/* ::-webkit-scrollbar-track {
   background: rgba(0, 0, 0, 0.2);
-  width: 1px; }
+  width: 1px; } */
+::-webkit-scrollbar-track {
+  background: rgba(254, 179, 4, 0.2);
+  width: 4px; }
 
 /* line 122, /var/www/kta/sass/components/page-elements/_order-form.scss */
-::-webkit-scrollbar-thumb {
+/* ::-webkit-scrollbar-thumb {
   background: rgba(0, 0, 0, 0.2);
-  width: 1px; }
+  width: 1px; } */
+::-webkit-scrollbar-thumb {
+  background: rgba(254, 179, 4, 0.8);
+  width: 3px; }
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(254, 179, 4, 1)}
 
 @media (max-width: 767px) {
   /* line 130, /var/www/kta/sass/components/page-elements/_order-form.scss */
@@ -10301,6 +10328,7 @@ input[type='email']:focus::placeholder {
   font-size: 40px;
   font-size: 2.5rem;
   font-weight: 300;
+  text-transform: uppercase;
   -webkit-transition: all .5s ease-in-out;
   -o-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out; }
@@ -10341,7 +10369,7 @@ input[type='email']:focus::placeholder {
 
 /* line 101, /var/www/kta/sass/components/page-elements/_projects.scss */
 .projects__description {
-  font-size: 12px;
+  font-size: 17px;
   font-weight: 500;
   line-height: 2;
   max-height: 0;
