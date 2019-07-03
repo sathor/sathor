@@ -25830,6 +25830,10 @@ $(document).ready(function() {
             $('.col.photo').addClass('animated');
 		  }
 		  
+		  if(index == 2 && direction =='down'){
+            $('.col.photo').removeClass('animated');
+		  }
+		  
 		  if(index == 6){
             $('.col.photo').removeClass('animated');
           }

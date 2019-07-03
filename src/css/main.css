@@ -9506,7 +9506,7 @@ input[type='email']:focus::placeholder {
   display: block;
   height: 100%;
   left: 0;
-  opacity: .8;
+  opacity: .1;
   position: absolute;
   top: 0;
   width: 100%; }
