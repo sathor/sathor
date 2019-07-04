@@ -8567,14 +8567,17 @@ input[type='email']:focus::placeholder {
   transition: all .5s ease-in-out; }
 
 .activity .action__description ul{
-  list-style: square !important;
+  display: list-item;
+  list-style: square;
 }
 
 .activity .action__description ul li{
+  display: list-item;
   list-style-type: square;
 }
 
 .activity .action__description ul li ul li{
+  display: list-item;
   list-style-type: disc;
 }
 
