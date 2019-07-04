@@ -8528,6 +8528,9 @@ input[type='email']:focus::placeholder {
 .activity .action.size-1x1 {
   width: 33.3%; }
 
+.activity .action.size-1 {
+  width: 50%; }
+
 /* line 27, /var/www/kta/sass/components/page-elements/_activity.scss */
 .activity .action.size-2x1 {
   width: 66.6%; }
@@ -10637,16 +10640,18 @@ input[type='email']:focus::placeholder {
   padding: 0;
 }
 
-.projects__project img.small-photo {
+.projects__project img.small-photo,
+.activity img.small-photo {
   display: none;
 }
 
 @media (max-width: 768px) {
-  .projects__project img.main-photo {
+  .projects__project img.main-photo, 
+  .activity img.main-photo {
       display: none;
   }
-
-  .projects__project img.small-photo {
+  .projects__project img.small-photo,
+  .activity img.small-photo{
       display: block;
   }
 }
