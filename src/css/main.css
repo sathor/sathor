@@ -7554,9 +7554,9 @@ h2.black {
 /* line 77, /var/www/kta/sass/base/_base.scss */
 h2.black div {
   font-size: 56px;
-  font-size: 3.5rem;
-  line-height: 48px;
-  line-height: 3rem;
+  /* font-size: 3.5rem; */
+  line-height: 66px;
+  /* line-height: 3rem; */
   font-weight: 300;
   text-transform: uppercase; }
 
@@ -8387,8 +8387,19 @@ input[type='email']:focus::placeholder {
 /* line 138, /var/www/kta/sass/components/page-elements/_about-us.scss */
 .about-us .col.text {
   position: relative;
-  width: 43%; }
+  }
 
+.about-us .col.text p {
+  margin-bottom: 60px;
+  margin-top: 60px;
+  font-size: 34px;
+  line-height: 42px; 
+  text-transform: uppercase; } 
+
+  .about-us .join {
+    margin: auto;
+    margin-top: 120px;
+  }
 /* line 143, /var/www/kta/sass/components/page-elements/_about-us.scss */
 .about-us__photo {
   position: relative; }
@@ -8489,6 +8500,21 @@ input[type='email']:focus::placeholder {
   
 
 @media (max-width: 767px) {
+  .about-us h2.black div {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .about-us .join {
+    margin-top: 10px;
+ }
+
+.about-us .col.text p {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 18px; 
+  text-transform: uppercase; } 
   /* line 229, /var/www/kta/sass/components/page-elements/_about-us.scss */
   .about-us .col.photo {
     display: none; }
@@ -8958,7 +8984,11 @@ input[type='email']:focus::placeholder {
 @media (max-width: 1200px) {
   /* line 113, /var/www/kta/sass/components/page-elements/_connect.scss */
   .connect {
-    height: auto; } }
+    height: auto; }
+
+  .footer .development .rights {
+    margin-right: 260px;
+  }}
 
 @media (max-width: 767px) {
   /* line 119, /var/www/kta/sass/components/page-elements/_connect.scss */
@@ -9091,6 +9121,10 @@ input[type='email']:focus::placeholder {
   /* line 87, /var/www/kta/sass/components/page-elements/_footer.scss */
   .footer .development .line-hor {
     display: none; }
+  
+  .footer .development .rights {
+    margin-right: 0;
+  }
   /* line 91, /var/www/kta/sass/components/page-elements/_footer.scss */
   .footer .development > div {
     padding: 10px 0;
@@ -9452,6 +9486,9 @@ input[type='email']:focus::placeholder {
   .header__logo2 {
     margin-left: auto;
     max-width: 86px; }
+
+  .regist__logo {
+    display: none; }
   /* line 242, /var/www/kta/sass/components/page-elements/_header.scss */
   .header__menu {
     display: -webkit-box;
@@ -10117,6 +10154,12 @@ input[type='email']:focus::placeholder {
   transition: all .5s ease-in-out;
   z-index: 3; }
 
+.partners__description p {
+  font-size: 38px;
+  line-height: 56px;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
 /* line 151, /var/www/kta/sass/components/page-elements/_partners.scss */
 .partners__text {
   padding-left: 65px;
@@ -10654,6 +10697,14 @@ input[type='email']:focus::placeholder {
   .activity img.small-photo{
       display: block;
   }
+}
+
+.halfsize {
+  width: 50%; 
+}
+
+.fullsize {
+  width: 100%;
 }
 
 
