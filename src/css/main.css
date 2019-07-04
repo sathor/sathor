@@ -7492,7 +7492,7 @@ html * {
   box-sizing: border-box; }
 
 /* line 29, /var/www/kta/sass/base/_base.scss */
-img {
+img, source {
   display: block;
   height: auto;
   max-width: 100%; }
@@ -9371,8 +9371,9 @@ input[type='email']:focus::placeholder {
 
 .header__logo2 {
   margin-left: auto;
-  margin-right: 260px;
+  margin-right: 93px;
   /* margin-left: 5.8125rem; */
+  margin-right: 5.8125rem;
   position: relative;
   z-index: 3; }
 
@@ -9444,6 +9445,10 @@ input[type='email']:focus::placeholder {
   .header__logo {
     margin-left: 15px;
     max-width: 87px; }
+
+  .header__logo2 {
+    margin-left: auto;
+    max-width: 86px; }
   /* line 242, /var/www/kta/sass/components/page-elements/_header.scss */
   .header__menu {
     display: -webkit-box;
@@ -9478,7 +9483,7 @@ input[type='email']:focus::placeholder {
   animation-duration: 4s; }
 
 /* line 11, /var/www/kta/sass/components/page-elements/_kta-unites.scss */
-.main img {
+.main img, source {
   max-width: none;
   min-height: 100%;
   min-width: 100%; }
@@ -9671,16 +9676,20 @@ input[type='email']:focus::placeholder {
 
 @media (max-width: 1200px) {
   /* line 138, /var/www/kta/sass/components/page-elements/_kta-unites.scss */
-  .main__inner {
+  /* .main__inner {
     margin-left: 80px;
-    margin-left: 5rem; } }
+    margin-left: 5rem; } */
+  } 
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   /* line 145, /var/www/kta/sass/components/page-elements/_kta-unites.scss */
   .main {
     margin-left: 0; }
   /* line 148, /var/www/kta/sass/components/page-elements/_kta-unites.scss */
   .main .down.arrow {
+    display: none; }
+
+  .down.arrow_video {
     display: none; }
   /* line 152, /var/www/kta/sass/components/page-elements/_kta-unites.scss */
   .main h1 {
@@ -10326,6 +10335,11 @@ input[type='email']:focus::placeholder {
   margin-left: auto;
   margin-right: auto; }
 
+
+.projects-title {
+  text-align: center;
+  margin-bottom: 30px;
+}  
 /* line 69, /var/www/kta/sass/components/page-elements/_projects.scss */
 .projects h2 {
   font-size: 40px;
@@ -10335,6 +10349,17 @@ input[type='email']:focus::placeholder {
   -webkit-transition: all .5s ease-in-out;
   -o-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out; }
+
+.projects h2.title-big {
+  font-size: 64px;
+ }
+
+.projects p {
+  /* font-size: 40px; */
+  /* font-size: 2.5rem; */
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 22px;}
 
 /* line 75, /var/www/kta/sass/components/page-elements/_projects.scss */
 .projects__project {
@@ -10488,9 +10513,20 @@ input[type='email']:focus::placeholder {
     font-size: 28px;
     font-size: 1.75rem;
     margin-bottom: 5px; }
+  
+  .projects h2.title-big {
+    font-size: 32px; }
+  
+  .projects p {
+    font-size: 12px; }
+
   /* line 207, /var/www/kta/sass/components/page-elements/_projects.scss */
   .projects h2 br {
     display: none; }
+
+  .projects-title{
+    margin-bottom: 10px;
+  }
   /* line 212, /var/www/kta/sass/components/page-elements/_projects.scss */
   .projects__description {
     font-size: 10px; }
@@ -10569,6 +10605,51 @@ input[type='email']:focus::placeholder {
   -webkit-appearance:checkbox;
 }
 
+.success-form-callback {
+  width: auto;
+  height: auto;
+  padding: 45px 15px;
+  display: none;
+}
+
+#senk-modal,
+#senk-modal-overlay {
+  display: none;
+  position: fixed;
+}
+
+.activity .action__description * {
+  font-size: 0.6875rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.activity .action__description a {
+  text-decoration: underline;
+}
+
+.header__language-selected a {
+  color: #fff;
+  font-size: 12px;
+}
+
+.footer {
+  padding: 0;
+}
+
+.projects__project img.small-photo {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .projects__project img.main-photo {
+      display: none;
+  }
+
+  .projects__project img.small-photo {
+      display: block;
+  }
+}
 
 
 
