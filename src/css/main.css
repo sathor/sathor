@@ -10171,7 +10171,7 @@ input[type='email']:focus::placeholder {
   position: absolute;
   top: 0;
   width: 100%;
-  z-index: 3; }
+  z-index: 2; }
 
 /* line 203, /var/www/kta/sass/components/page-elements/_partners.scss */
 .partners h2 {
