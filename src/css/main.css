@@ -10383,10 +10383,18 @@ html.fp-enabled,
 @media (min-width: 1200px) {
   /* line 4, /var/www/kta/sass/components/page-elements/_projects.scss */
   .projects__project:nth-child(2n+1) .projects__inner {
-    padding: 92px 37px;
-    padding: 5.75rem 2.3125rem;
+    padding: 92px 30px;
+    /* padding: 5.75rem 2.3125rem; */
     left: 0;
-    right: auto; }
+    width: 100%;
+   }
+  .projects__project:nth-child(2n+2) .projects__inner {
+    padding: 92px 30px;
+    /* padding: 5.75rem 2.3125rem; */
+    right: 0;
+    width: 100%;
+    /* right: auto; */}
+   
   /* line 10, /var/www/kta/sass/components/page-elements/_projects.scss */
   .projects__project:nth-child(2n+1) h2 {
     text-align: right; }
@@ -10410,7 +10418,7 @@ html.fp-enabled,
 /* line 40, /var/www/kta/sass/components/page-elements/_projects.scss */
 .projects .flex {
   margin: 0 -15px;
-  margin: 0 -0.9375rem;
+  /* margin: 0 -0.9375rem; */
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between; }
@@ -10471,7 +10479,7 @@ html.fp-enabled,
 /* line 75, /var/www/kta/sass/components/page-elements/_projects.scss */
 .projects__project {
   padding: 0 15px;
-  padding: 0 0.9375rem;
+  /* padding: 0 0.9375rem; */
   overflow: hidden;
   width: 50%; }
 
@@ -10487,8 +10495,8 @@ html.fp-enabled,
 
 /* line 89, /var/www/kta/sass/components/page-elements/_projects.scss */
 .projects__inner {
-  padding: 92px 37px;
-  padding: 5.75rem 2.3125rem;
+  padding: 92px 30px;
+  /* padding: 5.75rem 2.3125rem; */
   background-color: rgba(0, 0, 0, 0.5);
   height: 70%;
   max-width: 60%;
@@ -10524,9 +10532,9 @@ html.fp-enabled,
 /* line 119, /var/www/kta/sass/components/page-elements/_projects.scss */
 .projects__project.open .projects__inner {
   padding: 15px 22px 22px;
-  padding: 0.9375rem 1.375rem 1.375rem;
-  height: 100%;
+  /* padding: 0.9375rem 1.375rem 1.375rem; */
   max-width: 100%;
+  height: 100%;
   -webkit-transition: all .5s ease-in-out;
   -o-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out; }
@@ -10571,6 +10579,7 @@ html.fp-enabled,
     padding-bottom: 15px; }
   /* line 157, /var/www/kta/sass/components/page-elements/_projects.scss */
   .projects .flex {
+    padding: 0;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
   /* line 161, /var/www/kta/sass/components/page-elements/_projects.scss */
@@ -10612,7 +10621,9 @@ html.fp-enabled,
   /* line 194, /var/www/kta/sass/components/page-elements/_projects.scss */
   .projects__project.open .projects__inner {
     padding: 25px 35px 60px;
-    padding: 1.5625rem 2.1875rem 3.75rem; } }
+    right: 0;
+    /* padding: 1.5625rem 2.1875rem 3.75rem; */
+   } }
 
 @media (max-width: 767px) {
   .partners h2 div, .partners h2 div.black{
@@ -10772,9 +10783,9 @@ html.fp-enabled,
   width: 50%; 
 }
 
-.fullsize {
+.fullsize { 
   width: 100%;
 }
 
 
-
+  
