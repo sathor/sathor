@@ -8943,6 +8943,9 @@ html.fp-enabled,
   width: 100%;
   z-index: 1; }
 
+.connect .top-m {
+  margin-top: 150px;
+}
 /* line 37, /var/www/kta/sass/components/page-elements/_connect.scss */
 .connect .text {
   position: relative;
@@ -9043,6 +9046,9 @@ html.fp-enabled,
   }}
 
 @media (max-width: 767px) {
+  .connect .top-m {
+    margin-top: 30px;
+  }
   /* line 119, /var/www/kta/sass/components/page-elements/_connect.scss */
   .connect {
     padding-bottom: 0; }
@@ -10029,6 +10035,9 @@ html.fp-enabled,
 .partners {
   position: relative; }
 
+.partners h2 div{
+  line-height: 75px; }
+
 /* line 4, /var/www/kta/sass/components/page-elements/_partners.scss */
 .partners__wrapper {
   position: relative; }
@@ -10229,7 +10238,7 @@ html.fp-enabled,
 /* line 162, /var/www/kta/sass/components/page-elements/_partners.scss */
 .partners__text-wrapper {
   margin-top: 35px;
-  margin-top: 2.1875rem;
+  /* margin-top: 2.1875rem; */
   height: 109px;
   overflow: auto; }
 
@@ -10276,9 +10285,9 @@ html.fp-enabled,
 /* line 207, /var/www/kta/sass/components/page-elements/_partners.scss */
 .partners__description-wrapper {
   padding-left: 32px;
-  padding-left: 2rem;
-  padding-top: 40px;
-  padding-top: 2.5rem;
+  /* padding-left: 2rem; */
+  padding-top: 20px;
+  /* padding-top: 2.5rem; */
   width: 488px; }
 
 /* line 213, /var/www/kta/sass/components/page-elements/_partners.scss */
@@ -10606,6 +10615,14 @@ html.fp-enabled,
     padding: 1.5625rem 2.1875rem 3.75rem; } }
 
 @media (max-width: 767px) {
+  .partners h2 div, .partners h2 div.black{
+    font-size: 32px; 
+    line-height: 36px; }
+  
+  .partners__description p{
+    font-size: 14px; 
+    line-height: 18px;
+    margin-top: 10px; }
   /* line 203, /var/www/kta/sass/components/page-elements/_projects.scss */
   .projects h2 {
     font-size: 28px;
