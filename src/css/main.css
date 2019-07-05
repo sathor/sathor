@@ -8648,16 +8648,22 @@ html.fp-enabled,
     transition: all .5s ease-in-out; }
 
   .activity .action__description ul{
+    font-size: 12px;
     display: list-item;
     list-style: square;
   }
+  .activity .action__description p {
+    font-size: 12px;
+  }
 
   .activity .action__description ul li{
+    font-size: 12px;
     display: list-item;
     list-style-type: square;
   }
 
   .activity .action__description ul li ul li{
+    font-size: 12px;
     display: list-item;
     list-style-type: disc;
   }
@@ -8685,7 +8691,7 @@ html.fp-enabled,
   /* line 73, /var/www/kta/sass/components/page-elements/_activity.scss */
   .activity .action h3 {
     font-size: 32px;
-    font-size: 2rem;
+    /* font-size: 2rem; */
     display: inline-block;
     font-weight: 300;
     left: 50%;
@@ -8701,7 +8707,7 @@ html.fp-enabled,
   /* line 83, /var/www/kta/sass/components/page-elements/_activity.scss */
   .activity .action h3:before {
     margin-bottom: 29px;
-    margin-bottom: 1.8125rem;
+    /* margin-bottom: 1.8125rem; */
     width: 65px;
     width: 4.0625rem;
     background-color: #fff;
@@ -8723,8 +8729,8 @@ html.fp-enabled,
 
   /* line 100, /var/www/kta/sass/components/page-elements/_activity.scss */
   .activity .action:hover h3:before {
-    margin-bottom: 50px;
-    margin-bottom: 3.125rem;
+    margin-bottom: 30px;
+    /* margin-bottom: 3.125rem; */
     width: 43px;
     width: 2.6875rem; }
 
@@ -8865,6 +8871,10 @@ html.fp-enabled,
 
   @media (max-width: 1200px) {
     /* line 219, /var/www/kta/sass/components/page-elements/_activity.scss */
+    .activity .action__description {
+      height: 150px;
+      width: 760px;
+    }
     .activity .flex {
       -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
@@ -8876,7 +8886,8 @@ html.fp-enabled,
     /* line 228, /var/www/kta/sass/components/page-elements/_activity.scss */
     .activity .flex .action__inner-first {
       max-height: 300px;
-      max-height: 18.75rem; }
+      /* max-height: 18.75rem; */
+     }
     /* line 232, /var/www/kta/sass/components/page-elements/_activity.scss */
     .activity .flex .action img {
       min-width: 100%; }
@@ -8885,7 +8896,24 @@ html.fp-enabled,
     .activity .right {
       width: 100%; } }
 
+  @media (max-width: 990px) {
+    .activity .action__description {
+      height: 150px;
+      width: 560px;
+    }
+  }
   @media (max-width: 767px) {
+    .activity .action h3 {
+    font-size: 24px;
+    line-height: 28px;
+    }
+
+    .activity .action:hover h3:before {
+    margin-bottom: 10px;
+    /* margin-bottom: 3.125rem; */
+    width: 43px;
+    /* width: 2.6875rem; */
+   }
     /* line 246, /var/www/kta/sass/components/page-elements/_activity.scss */
     .activity .flex .action {
       height: 300px;
@@ -8896,6 +8924,17 @@ html.fp-enabled,
     /* line 254, /var/www/kta/sass/components/page-elements/_activity.scss */
     .activity .flex .action__inner-first {
       max-height: 300px; }
+    .activity .action__description {
+      height: 150px;
+      width: 290px;
+      margin-top: 10px;
+    }
+    .activity .h-fix {
+      height: 130px;
+    }
+    .activity .action .size-fix h3 {
+      font-size: 18px;
+    }
     /* line 258, /var/www/kta/sass/components/page-elements/_activity.scss */
     .activity .flex .action img {
       max-width: none;
@@ -10745,7 +10784,7 @@ html.fp-enabled,
 }
 
 .activity .action__description * {
-  font-size: 0.6875rem;
+  /* font-size: 0.6875rem; */
   font-weight: 500;
   color: #fff;
 }
