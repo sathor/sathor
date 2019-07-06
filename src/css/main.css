@@ -10887,6 +10887,12 @@ input[type='email']:focus::placeholder {
   z-index: 3;
 }
 
+@media (max-width: 1366px) {
+  .connect .top-m {
+    margin-top: 50px;
+  }
+}
+
 @media (max-width: 1200px) {
 
   /* line 113, /var/www/kta/sass/components/page-elements/_connect.scss */
@@ -11780,7 +11786,7 @@ source {
 }
 
 @media (max-width: 1366px) {
-  .main h1.white{
+  .main h1.white {
     font-size: 42px;
     margin-bottom: 15px;
     padding-top: 40px;
@@ -12748,10 +12754,12 @@ source {
     text-transform: uppercase;
     font-size: 18px;
   }
+
   .down.arrow_video {
     margin-top: 30px;
   }
 }
+
 @media (max-width: 1200px) {
 
   /* line 154, /var/www/kta/sass/components/page-elements/_projects.scss */
@@ -13009,4 +13017,3 @@ source {
 .fullsize {
   width: 100%;
 }
-
