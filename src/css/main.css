@@ -10185,6 +10185,12 @@ input[type='email']:focus::placeholder {
   transition: all ease-in-out .5s;
 }
 
+@media (max-width: 1366px) {
+  .about-us .join {
+    margin-top: 40px;
+  }
+}
+
 @media (max-width: 1200px) {
 
   /* line 194, /var/www/kta/sass/components/page-elements/_about-us.scss */
@@ -11773,6 +11779,27 @@ source {
   }
 }
 
+@media (max-width: 1366px) {
+  .main h1.white{
+    font-size: 42px;
+    margin-bottom: 15px;
+    padding-top: 40px;
+  }
+
+  /* .main h2.white{
+  } */
+
+  .main-description {
+    font-size: 10px;
+    line-height: 12px;
+    margin-bottom: 40px;
+  }
+
+  .main .down.arrow {
+    bottom: 40px;
+  }
+}
+
 @media (max-width: 1200px) {
   /* line 138, /var/www/kta/sass/components/page-elements/_kta-unites.scss */
   /* .main__inner {
@@ -12704,6 +12731,27 @@ source {
   transition: max-height .5s ease-in-out opacity .7s ease-in-out .4s;
 }
 
+@media (max-width: 1366px) {
+  .projects .projects-title {
+    margin-bottom: 10px;
+  }
+
+  .projects h2.title-big {
+    font-size: 56px;
+    margin-bottom: 15px;
+  }
+
+  .projects p {
+    /* font-size: 40px; */
+    /* font-size: 2.5rem; */
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+  .down.arrow_video {
+    margin-top: 30px;
+  }
+}
 @media (max-width: 1200px) {
 
   /* line 154, /var/www/kta/sass/components/page-elements/_projects.scss */
@@ -12961,3 +13009,4 @@ source {
 .fullsize {
   width: 100%;
 }
+
