@@ -10639,7 +10639,6 @@ input[type='email']:focus::placeholder {
 }
 
 
-
 @media (max-width: 1200px) {
 
   /* line 219, /var/www/kta/sass/components/page-elements/_activity.scss */
@@ -10678,6 +10677,18 @@ input[type='email']:focus::placeholder {
   }
 }
 
+@media (max-width: 1366px) {
+
+  .activity .container {
+    padding: 0 85px;
+  }
+
+  .activity .action__description {
+    height: 100px;
+    width: 450px;
+  }
+}
+
 @media (max-width: 990px) {
   .activity .action__description {
     height: 150px;
@@ -10686,6 +10697,10 @@ input[type='email']:focus::placeholder {
 }
 
 @media (max-width: 767px) {
+
+  .activity .container {
+    padding: 0 15px;
+  }
   .activity .action h3 {
     font-size: 24px;
     line-height: 28px;
@@ -12655,7 +12670,7 @@ source {
   /* padding: 5.75rem 2.3125rem; */
   background-color: rgba(0, 0, 0, 0.5);
   height: 70%;
-  max-width: 60%;
+  max-width: 70%;
   position: absolute;
   right: 0;
   top: 50%;
@@ -12743,8 +12758,18 @@ source {
   }
 
   .projects h2.title-big {
-    font-size: 56px;
+    font-size: 48px;
     margin-bottom: 15px;
+  }
+
+  .projects__project:nth-child(2n+2) {
+    padding-right: 85px;
+    padding-left: 15px;
+  }
+
+  .projects__project:nth-child(2n+1) {
+    padding-right: 15px;
+    padding-left: 85px;
   }
 
   .projects p {
@@ -12752,12 +12777,16 @@ source {
     /* font-size: 2.5rem; */
     font-weight: 300;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .down.arrow_video {
     margin-top: 30px;
   }
+
+  /* .projects__inner-first img.main-photo {
+
+  } */
 }
 
 @media (max-width: 1200px) {
@@ -12793,6 +12822,7 @@ source {
     min-width: 100%;
   }
 
+
   /* line 176, /var/www/kta/sass/components/page-elements/_projects.scss */
   .projects__project .watch {
     bottom: 15px;
@@ -12827,6 +12857,14 @@ source {
     padding: 25px 35px 60px;
     right: 0;
     /* padding: 1.5625rem 2.1875rem 3.75rem; */
+  }
+
+  .projects__project:nth-child(2n+2) {
+    padding: 0;
+  }
+
+  .projects__project:nth-child(2n+1) {
+    padding: 0;
   }
 }
 
