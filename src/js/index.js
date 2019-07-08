@@ -1,10 +1,10 @@
 // import '../css/reset.css';
-// import '../scss/style.scss';
-// import '../scss/responsive.scss';
+import '../scss/style.scss';
+import '../scss/responsive.scss';
 // import '../css/css_1.css';
 // import '../css/css.css';
-import '../css/fonts.css';
-import '../css/main.css';
+// import '../css/fonts.css';
+// import '../css/main.css';
 
 // import '../js/base.js';
 import '../js/main_1.js';
