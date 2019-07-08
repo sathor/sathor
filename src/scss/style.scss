@@ -9028,6 +9028,7 @@ figcaption {
 
 footer {
   margin: 0;
+  margin-bottom: 10px;
   padding: 0;
   border: 0;
   vertical-align: baseline;
@@ -9918,8 +9919,7 @@ input[type='email'] {
     position: relative;
 
     p {
-      margin-bottom: 60px;
-      margin-top: 60px;
+      margin: 50px 0;
       font-size: 34px;
       line-height: 42px;
       text-transform: uppercase;
@@ -9928,7 +9928,7 @@ input[type='email'] {
 
   .join {
     margin: auto;
-    margin-top: 120px;
+    margin-top: 60px;
   }
 
   .text-inner {
@@ -9940,8 +9940,27 @@ input[type='email'] {
   }
 }
 
+.col.text {
+  h2 {
+    font-size: 56px;
+    font-weight: 300;
+  }
+
+  p {
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+
+  b {
+    font-size: 56px;
+    font-weight: 500;
+  }
+}
+
 .col.text.program-content {
   h2 {
+    font-size: 56px;
+    font-weight: 300;
     margin-top: 5px;
     margin-bottom: 5px;
   }
@@ -9962,6 +9981,11 @@ input[type='email'] {
     font-size: 13px;
     line-height: 16px;
   }
+
+  b {
+    font-size: 56px;
+    font-weight: 500;
+  }
 }
 
 .program-content {
@@ -9974,10 +9998,10 @@ input[type='email'] {
   margin-top: 50px;
 
   p {
-    font-size: 20px;
+    font-size: 18px;
 
     a {
-      font-size: 20px;
+      font-size: 18px;
     }
   }
 
@@ -10037,6 +10061,9 @@ input[type='email'] {
     text-transform: uppercase;
     transition: all ease-in-out .5s;
   }
+}
+.first-block{
+  background-color: black;
 }
 
 .activity {
@@ -10253,7 +10280,7 @@ input[type='email'] {
 
   .action__description {
     height: 150px;
-    width: 520px;
+    width: 490px;
     font-size: 12px !important;
     margin-top: 26px;
     font-weight: 500;
@@ -10764,6 +10791,10 @@ input[type='email'] {
 }
 
 .regist__logo {
+  img {
+    width: 144px;
+  }
+  top: 0px;
   margin-left: auto;
   margin-right: 10px;
   position: relative;
@@ -11302,7 +11333,8 @@ input[type='email'] {
 
   h2 {
     div {
-      line-height: 75px;
+      font-size: 52px;
+      line-height: 1.2;
     }
 
     margin-bottom: 39px;
@@ -11622,6 +11654,10 @@ input[type='email'] {
     margin-right: auto;
   }
 
+  .projects-title {
+    margin-bottom: 20px;
+  }
+
   h2 {
     font-size: 40px;
     font-size: 2.5rem;
@@ -11631,13 +11667,14 @@ input[type='email'] {
   }
 
   h2.title-big {
-    font-size: 64px;
+    font-size: 56px;
+    margin-bottom: 20px;
   }
 
   p {
     font-weight: 300;
     text-transform: uppercase;
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 
@@ -11683,7 +11720,7 @@ input[type='email'] {
 .projects__description {
   font-size: 17px;
   font-weight: 500;
-  line-height: 2;
+  line-height: 1.2;
   max-height: 0;
   opacity: 0;
   overflow: hidden;
