@@ -701,18 +701,17 @@ $container-padding-s: 60px;
 
     .contacts {
       align-items: flex-start;
-      display: flex;
+      display: block;
       justify-content: space-between;
       width: 100%;
-
+      text-align: center;
+      margin: 0 auto;
       .mail {
-        margin-right: 20px;
-        margin-right: 1.25rem;
+        margin: 0px;
       }
 
       p {
-        margin-right: 20px;
-        margin-right: 1.25rem;
+        margin: 0px;
       }
     }
 
@@ -743,9 +742,9 @@ $container-padding-s: 60px;
     }
 
     .socials-wrapper {
-      justify-content: space-between;
+      justify-content: center;
       order: -1;
-      padding: 25px 0 15px;
+      padding: 25px 0 15px 15px;
       width: 100%;
     }
   }

@@ -10522,6 +10522,14 @@ input[type='email'] {
       padding: 0.5625rem 0;
       font-weight: 500;
     }
+    span {
+      &::before{
+        content: "•";
+      }
+      &::after{
+        content: "•";
+      }
+    }
   }
 
   .socials-wrapper {
