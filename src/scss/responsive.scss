@@ -1,11 +1,11 @@
 $container-padding-s: 60px;
 
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   .container {
     width: 700px;
   }
-}
+}*/
 
 @media (min-width: 992px) {
   .container {
@@ -67,12 +67,13 @@ $container-padding-s: 60px;
 @media (max-width: 1366px) {
 
   .container {
-    padding: 0 $container-padding-s;
+    padding: 80px $container-padding-s;
 
   }
 
   .partners {
     .partners__description-wrapper {
+
       padding-left: 10px;
 
       h2 {
@@ -148,7 +149,7 @@ $container-padding-s: 60px;
 
   .activity {
     .container {
-      padding: 0 $container-padding-s;
+      padding: 80px $container-padding-s;
     }
 
     .action__description {
@@ -181,9 +182,15 @@ $container-padding-s: 60px;
     margin-bottom: 40px;
   }
 
-  .projects {
+  .connect {
     .container {
       padding: 0 $container-padding-s;
+    }
+  }
+
+  .projects {
+    .container {
+      padding: 80px $container-padding-s;
 
       .projects__description.white {
         line-height: 1.2;
@@ -266,7 +273,7 @@ $container-padding-s: 60px;
   }
 
   .container {
-    padding: 0 25px;
+    padding: 80px 15px;
   }
 
   .about-us {
@@ -314,6 +321,10 @@ $container-padding-s: 60px;
     .action__description {
       height: 150px;
       width: 760px;
+    }
+
+    #video-about.action {
+      padding: 0;
     }
 
     .flex {
@@ -371,25 +382,31 @@ $container-padding-s: 60px;
     }
   }
 
-  .partners__description-wrapper {
-    padding-left: 0;
-    padding-right: 0;
-    width: 100%;
-  }
+  .partners {
+    .partners__description-wrapper {
+      padding-left: 0;
+      padding-right: 0;
+      width: 100%;
+    }
 
-  .partners__description {
-    padding: 0;
-    position: relative;
-  }
+    .partners__description {
+      padding: 0;
+      position: relative;
 
-  .partners__text {
-    padding: 0;
-  }
+      p {
+        margin-top: 20px;
+      }
+    }
 
-  .partners__block-border {
-    height: 100%;
-    top: 0;
-    width: 100%;
+    .partners__text {
+      padding: 0;
+    }
+
+    .partners__block-border {
+      height: 100%;
+      top: 0;
+      width: 100%;
+    }
   }
 
   .projects {
@@ -397,6 +414,7 @@ $container-padding-s: 60px;
 
     .flex {
       padding: 0;
+      margin: 0;
       flex-wrap: wrap;
     }
   }
@@ -487,7 +505,7 @@ $container-padding-s: 60px;
   }
 
   .join.button {
-    margin: 0;
+    margin-left: 13px;
   }
 
   .main {
@@ -525,6 +543,16 @@ $container-padding-s: 60px;
 }
 
 @media (max-width: 850px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .connect {
+    .container {
+      padding: 0 15px;
+    }
+  }
+
   .main {
     margin-left: 0;
 
@@ -587,6 +615,10 @@ $container-padding-s: 60px;
   }
 
   .activity {
+    .action {
+      padding: 0;
+    }
+
     img.main-photo {
       display: none;
     }
@@ -975,7 +1007,7 @@ $container-padding-s: 60px;
     }
 
     p {
-      font-size: 12px;
+      font-size: 14px;
       line-height: 1.2;
       margin-top: 10px;
     }
@@ -983,7 +1015,7 @@ $container-padding-s: 60px;
 
   .projects {
     .container {
-      padding: 0 25px;
+      padding: 0 15px;
     }
 
     h2 {
@@ -1001,7 +1033,7 @@ $container-padding-s: 60px;
     }
 
     p {
-      font-size: 12px;
+      font-size: 14px;
     }
   }
 
@@ -1023,7 +1055,8 @@ $container-padding-s: 60px;
 
 
 
-@media (max-width: 500px), (max-height: 500px) {
+@media (max-width: 500px),
+(max-height: 500px) {
 
   .header {
     .header__inner {
