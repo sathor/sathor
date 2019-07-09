@@ -10513,6 +10513,7 @@ input[type='email'] {
   }
 
   .contacts {
+    width: 35%;
     color: #fff;
 
     div {
@@ -10533,8 +10534,10 @@ input[type='email'] {
   }
 
   .socials-wrapper {
+    width: 35%;
     margin: 0 -12px;
     margin: 0 -0.75rem;
+    justify-content: flex-end;
     align-items: center;
 
     a {
@@ -10544,14 +10547,11 @@ input[type='email'] {
   }
 
   .development {
+    width: 30%;
     font-size: 12px;
     font-size: 0.75rem;
     color: #fff;
     font-weight: 300;
-
-    .flex {
-      align-items: center;
-    }
 
     .line-hor {
       height: 45px;
@@ -10574,6 +10574,7 @@ input[type='email'] {
   }
 
   .development.flex {
+    justify-content: center;
     align-items: center;
   }
 }
