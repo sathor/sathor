@@ -10686,6 +10686,8 @@ input[type='email'] {
 }
 
 .header__inner {
+  max-height: 86px;
+  min-height: 32px;
   justify-content: space-between;
 }
 
@@ -10790,6 +10792,7 @@ input[type='email'] {
 }
 
 .header__logo {
+  max-width: 195px;
   margin-left: 93px;
   margin-left: 5.8125rem;
   position: relative;
@@ -10797,6 +10800,7 @@ input[type='email'] {
 }
 
 .header__logo2 {
+  max-width: 234px;
   margin-left: auto;
   margin-right: 93px;
   margin-right: 5.8125rem;
