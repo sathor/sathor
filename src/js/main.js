@@ -117,4 +117,24 @@ $(document).ready(function() {
         $("#senk-modal-overlay").fadeOut(400);
         $("#senk-modal").fadeOut(400);
     })
+
+    var classNotFull = 'fp-auto-height';
+    var firstScreen = document.querySelector('#first-block');
+
+    function handleFullPageToggle () {
+        if (window.innerWidth < 674) {
+            if (!firstScreen.classList.contains(classNotFull)) {
+                firstScreen.classList.add(classNotFull)
+            }
+        } else {
+            if (firstScreen.classList.contains(classNotFull)) {
+                firstScreen.classList.remove(classNotFull)
+            }
+        }
+    }
+
+    handleFullPageToggle();
+    window.addEventListener('resize', function() {
+        handleFullPageToggle();
+    })
 });

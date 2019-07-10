@@ -7,12 +7,8 @@ import '../scss/responsive-bootstrap.scss'
 // import '../css/fonts.css';
 // import '../css/main.css';
 
-// import '../js/base.js';
 import '../js/main_1.js';
 import '../js/main.js';
-// import '../js/wp-embed.min.js';
-// import '../js/www-embed-player.js';
-// import '../js/www-notfound.js';
 
 
 // import simpleParallax from 'simple-parallax-js';
