@@ -1075,8 +1075,13 @@ $container-padding-s: 60px;
   .main {
     height: 625px;
 
-    img {
+    #main_pic {
+      margin-top: 44px;
       height: auto;
+    }
+
+    &:after {
+      opacity: 0.7;
     }
 
     .main__inner {
