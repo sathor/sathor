@@ -1072,26 +1072,63 @@ $container-padding-s: 60px;
     }
   }
 
-    .main__inner {
-    left: 0;
-    top: 20vh;
-    margin-left: 0;
-    margin-top: 0;
-    padding: 15px;
-    transform: translate(0, 0);
-    height: 80vh;
-    width: 100vw;
+  .main {
+    height: auto;
 
+    img {
+      height: auto;
+    }
+
+    .main__inner {
+      left: 0;
+      top: 120px;
+      margin-left: 0;
+      margin-top: 0;
+      padding: 15px;
+      transform: translate(0, 0);
+      height: 505px;
+      width: 100vw;
+
+    }
   }
 
   #join-button-first {
     position: absolute;
     left: 50%;
-    bottom: 26px;
+    bottom: 50px;
     transform: translate(-50%, 0);
   }
 
   #video-about-container {
-    padding-top: 26px;
+    padding-top: 50px;
+  }
+
+  #possibilities-container {
+    padding-top: 30px;
+  }
+
+  #possibilities-other-container {
+    padding-top: 10px;
+  }
+
+  #registration-info-container {
+    padding-top: 35px;
+  }
+
+  #program-info-container {
+    padding-top: 25px;
+  }
+
+  #location-container {
+    padding-top: 5px;
+    padding-bottom: 25px;
+  }
+
+  .connect {
+    padding-top: 0;
+
+    .top-m {
+      margin-top: 50px;
+    }
   }
 }
