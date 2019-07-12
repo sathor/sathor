@@ -1,7 +1,5 @@
 // import '../css/reset.css';
-import '../scss/style.scss';
-import '../scss/responsive.scss';
-import '../scss/responsive-bootstrap.scss'
+import '../scss/main.scss';
 // import '../css/css_1.css';
 // import '../css/css.css';
 // import '../css/fonts.css';

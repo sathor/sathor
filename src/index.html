@@ -633,6 +633,10 @@
 
   <!--<script src="js/main_1.js"></script>-->
   <!--<script src="js/main.js"></script>-->
+
+<% for (var chunk in htmlWebpackPlugin.files.chunks) { %>
+<%= htmlWebpackPlugin.files.chunks[chunk].entry %>">
+<% } %>
 </body>
 
 </html>
