@@ -10,3 +10,4 @@
 *.log
 .editorconfig
 /src/css/*
+.old
