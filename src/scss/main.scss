@@ -1,18 +1,21 @@
-@import "utils/fonts";
-@import "utils/font-awesome";
-@import "utils/style";
-@import "utils/_bootstrap";
-@import "utils/responsive";
-@import "utils/animation";
-@import "utils/fullpage";
+@import "helpers/vars";
+@import "helpers/mixins";
+
+@import "modules/base";
+@import "modules/fonts";
+@import "modules/style";
+@import "modules/responsive";
+
+@import "vendor/font-awesome";
+@import "vendor/_bootstrap";
+@import "vendor/animation";
+@import "vendor/fullpage";
 
 /*
 @import "utils/vars";
 @import "utils/slick-slider";
 @import "utils/select2";
+
+@import "modules/base_uncss"
 */
 
-
-/*
-@import "modules/first-section";
-*/

@@ -5,7 +5,14 @@ import '../scss/main.scss';
 // import '../css/fonts.css';
 // import '../css/main.css';
 
-import '../js/main.js';
+
+import '../js/vendor/jquery';
+// import '../js/vendor/select2';
+import '../js/vendor/progressbar';
+// import '../js/vendor/slick';
+import '../js/vendor/trunk8';
+import '../js/vendor/fullpage';
+import './modules/main';
 
 
 // import simpleParallax from 'simple-parallax-js';
