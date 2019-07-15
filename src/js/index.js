@@ -5,7 +5,6 @@ import '../scss/main.scss';
 // import '../css/fonts.css';
 // import '../css/main.css';
 
-import '../js/main_1.js';
 import '../js/main.js';
 
 
