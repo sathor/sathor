@@ -231,12 +231,13 @@ $(document).ready(function () {
 
 			setTimeout(function () {
 				$('.preloader-wrapper').addClass('opacity');
-				/*  $('.header__logo').addClass('fadeIn animated');
+				  $('.header__logo').addClass('fadeIn animated');
+				  $('.header__logo-2').addClass('fadeIn animated');
 				  $('.header__language').addClass('fadeIn animated');
 				  $('.main h1').addClass('bounceInLeft animated');
 				  $('.main .join').addClass('bounceInLeft animated');
 				  $('.main-description').addClass('bounceInLeft animated');
-				  $('.main .socials-wrapper').addClass('fadeIn animated');*/
+				  $('.main .socials-wrapper').addClass('fadeIn animated');
 			}, 3000);
 
 			setTimeout(function () {
@@ -406,7 +407,7 @@ $(document).ready(function () {
 
 
 	var classNotFull = 'fp-auto-height';
-	var firstScreen = document.querySelector('#first-block');
+	var firstScreen = document.querySelector('#main-block');
 
 	function handleFullPageToggle() {
 		if (window.innerWidth < 674) {

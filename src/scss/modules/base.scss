@@ -8,16 +8,16 @@ html {
   padding: 0;
   vertical-align: baseline;
   font-family: $mainFont;
+  font-size: $mainFontSize;
   font-size: 100%;
   body {
     position: relative;
     height: 100%;
   }
-  * {
-    font-size: 14px;
-    font-size: .875rem;
-    box-sizing: border-box;
-  }
+  // * {
+  //   font-size: rem(14);
+  //   box-sizing: border-box;
+  // }
 }
 
 applet, body, div, iframe, object, span {
@@ -27,7 +27,7 @@ applet, body, div, iframe, object, span {
   vertical-align: baseline;
 }
 
-h1 {
+.header-1 {
   border: 0;
   vertical-align: baseline;
   margin: 0 0 rem(20);
@@ -37,33 +37,16 @@ h1 {
   font-size: rem(46);
   font-weight: 500;
   text-transform: uppercase;
-  &:before {
-    margin-bottom: rem(50);
-    width: rem(110);
-    background-color: #fff;
-    content: "";
-    display: block;
-    height: 1px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    z-index: 3;
-  }
-  span {
-    font-size: rem(46);
-    font-weight: 500;
-    text-transform: uppercase;
-  }
 }
 
-h2 {
+.header-2 {
   padding: 0;
   border: 0;
   vertical-align: baseline;
   margin: 0 0 rem(30);
 }
 
-blockquote, h3, h4, h5, h6, p {
+blockquote, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   border: 0;
