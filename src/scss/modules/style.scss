@@ -1052,19 +1052,6 @@ input {
   }
 }
 
-.down.arrow_video {
-  left: calc(50% - 20px);
-  height: 40px;
-  width: 40px;
-  bottom: 40px;
-  -webkit-animation: bounce 10s infinite;
-  animation: bounce 10s infinite;
-  background: url(../images/down.png) no-repeat 50%;
-  background-size: contain;
-  cursor: pointer;
-  position: absolute;
-  z-index: 3;
-}
 
 .projects-modal {
   display: none;
