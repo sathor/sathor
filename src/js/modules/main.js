@@ -30,7 +30,7 @@ $(document).ready(function () {
 
 	var moreDetails = {
 		attach: function () {
-			this.action('.projects__project .button', '.projects__project .buttons', '.projects__project');
+			this.action('.possibilities__project .button', '.possibilities__project .buttons', '.possibilities__project');
 		},
 		action: function (el, parent, wrapper) {
 			$(el).click(function () {
@@ -49,9 +49,9 @@ $(document).ready(function () {
 			this.moveSlide('#partners-modal .logo-wrapper', 4, 1);
 
 			// Partners block
-			this.callModal('#projects .all-projects', '#projects', '#projects img', 'Усі <span>проекти</span>', 'projects-modal');
-			this.removeModal('#projects-modal .close, #projects-modal-overlay', '#projects-modal');
-			this.moveSlide('#projects-modal .logo-wrapper', 5, 2);
+			this.callModal('#possibilities .all-possibilities', '#possibilities', '#possibilities img', 'Усі <span>проекти</span>', 'possibilities-modal');
+			this.removeModal('#possibilities-modal .close, #possibilities-modal-overlay', '#possibilities-modal');
+			this.moveSlide('#possibilities-modal .logo-wrapper', 5, 2);
 		},
 		fetchItems: function (el) {
 			return $(el).clone();
@@ -122,7 +122,7 @@ $(document).ready(function () {
 				css3: true,
 				showActiveTooltip: true,
 				autoScrolling: true,
-				normalScrollElements: '.partners__text, .projects-modal, .partners-modal, .projects-modal-overlay, .partners-modal-overlay, .preloader-wrapper, .header__menu, .project__video-overlay, .project__video',
+				normalScrollElements: '.partners__text, .possibilities-modal, .partners-modal, .possibilities-modal-overlay, .partners-modal-overlay, .preloader-wrapper, .header__menu, .project__video-overlay, .project__video',
 				anchors: ['firstSection', 'videoSection', 'secondSection', 'otherSection', 'thirdSection', 'fourthSection', 'fifthSection', 'sixthSection'],
 				menu: '#myMenu',
 				responsiveWidth: 1200,
@@ -256,7 +256,7 @@ $(document).ready(function () {
 
 	var projectVideo = {
 		attach: function () {
-			this.video('.projects__project .watch', '.projects__project', '.prolect__video');
+			this.video('.possibilities__project .watch', '.possibilities__project', '.prolect__video');
 			this.close('.project__video-overlay, .project__video .close', '.project__video.opened');
 		},
 		video: function (btn, parent, modal) {

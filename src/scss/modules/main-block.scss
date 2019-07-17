@@ -125,7 +125,7 @@
       }
 
       &:hover {
-        color: #feb404;
+        color: $hover-base;
       }
 
       a {
@@ -134,7 +134,7 @@
       }
 
       &.active {
-        color: #feb404;
+        color: $hover-base;
       }
     }
 
@@ -180,11 +180,11 @@
 
         &:hover,
         &.active {
-          color: #feb404;
+          color: $hover-base;
           transition: all 0.6s ease-in-out;
 
           &:before {
-            background-color: #feb404;
+            background-color: $hover-base;
           }
         }
       }

@@ -1,0 +1,253 @@
+#possibilities-container {
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.possibilities {
+  .flex {
+    margin: 0;
+    justify-content: center;
+  }
+
+  .watch {
+    background: url(../images/watch-button.png) no-repeat 0;
+    bottom: rem(20);
+    cursor: pointer;
+    display: inline-block;
+    font-size: rem(10);
+    font-weight: 300;
+    left: rem(24);
+    padding: rem(7) 0 rem(7) rem(30);
+    position: absolute;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .possibilities-title {
+    text-align: center;
+    margin: 0;
+    margin-bottom: rem(40);
+
+    h2 {
+      font-size: rem(64);
+      font-weight: 300;
+      transition: all 0.5s ease-in-out;
+      text-transform: uppercase;
+      line-height: 1;
+      margin: 0;
+      margin-bottom: rem(30);
+    }
+
+    p {
+      font-size: rem(21);
+      font-weight: 300;
+      text-transform: uppercase;
+      margin: 0;
+    }
+  }
+}
+
+.possibilities__wrapper {
+  width: $containerWidth;
+  // max-height: 60vh;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+}
+
+.possibilities__project {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 50%;
+
+
+  img.small-photo {
+    display: none;
+  }
+
+  .possibilities__description {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0;
+    transition: all .5s ease-in-out;
+    text-transform: uppercase;
+
+    p {
+      margin: rem(20) 0;
+      font-weight: 300;
+      font-size: rem(20);
+    }
+  }
+
+}
+
+.possibilities__inner-first {
+  position: relative;
+
+  img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+.possibilities__inner {
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  height: 360px;
+  width: 600px;
+  position: absolute;
+  top: 180px;
+  // transform: translateY(-50%);
+  transition: all 0.5s ease-in-out;
+
+  h2 {
+    font-size: rem(52);
+    font-weight: 300;
+    line-height: rem(64);
+    text-transform: uppercase;
+    margin-top: rem(70);
+    margin-bottom: 0;
+  }
+
+  .button {
+    margin-top: 70px;
+    display: none;
+
+    &.active {
+      display: flex;
+    }
+  }
+}
+
+
+.possibilities__project.open {
+  .possibilities__inner {
+    top: 0;
+    // padding: 15px 22px 22px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease-in-out;
+  }
+
+  text-transform: uppercase;
+
+  h2 {
+    margin-bottom: 0;
+    text-align: right;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .watch {
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    transition: all 0.5s ease-in-out;
+  }
+
+  // .button {
+  //   margin-left: auto;
+  //   margin-right: auto;
+  // }
+
+  .possibilities__description {
+    // padding: 0 2.8125rem 2.0625rem;
+    max-height: 315px;
+    width: 100%;
+    opacity: 1;
+    transition: max-height opacity 0.5s ease-in-out ease-in-out 0.7s 0.4s;
+
+    p {
+      font-weight: 300;
+      font-size: rem(20);
+    }
+  }
+}
+
+.possibilities__project {
+  &:first-child {
+    .possibilities__inner-first {
+      margin-right: rem(10);
+    }
+  }
+
+  &:last-child {
+    .possibilities__inner-first {
+      margin-left: rem(10);
+    }
+  }
+}
+
+.possibilities__project {
+  &:first-child {
+    .possibilities__inner {
+      left: 0;
+      padding-right: rem(30);
+    }
+
+    text-align: right;
+    // h2 {
+    // }
+
+    .possibilities__description {}
+
+    .button {
+      margin-left: auto;
+    }
+
+    .watch {
+      left: auto;
+      right: 24px;
+      transition: all .5s ease-in-out;
+    }
+  }
+
+  &:last-child {
+    .possibilities__inner {
+      right: 0;
+      padding-left: rem(30);
+    }
+  }
+
+
+  &:first-child.open {
+
+    .possibilities__inner {
+      text-align: right;
+      padding-right: rem(75);
+      border: 5px solid $border-base;
+    }
+
+    h2 {
+      text-align: right;
+    }
+
+  }
+
+  &:last-child.open {
+
+    .possibilities__inner {
+      padding-left: rem(75);
+      border: 5px solid $border-base;
+    }
+
+    h2 {
+      text-align: left;
+    }
+  }
+}
+
+@media (max-width: 1500px) {
+
+  .possibilities__wrapper {
+    width: 1000px;
+  }
+
+}

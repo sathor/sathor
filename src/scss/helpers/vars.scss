@@ -7,12 +7,16 @@ $mainFontSize : 16px;
 $mainFontWeight : 500;
 $mainLineHeight : 1.2;
 
+$containerWidth : 1300px;
+
 $desktopWidth : 1280px;
 $smDesktopWidth : 980px;
 $tableWidth : 768px;
 $phoneWidth : 480px;
 $smPhoneWidth : 320px;
 // Main color
+
+
 $default-color : #ffffff;
 $primary-color : #444ce0;
 $success-color : #26de81;
@@ -28,7 +32,9 @@ $neutral-secondary : #909399;
 $neutral-placeholder : #C0C4CC;
 
 // Border Color
-$border-base : #DCDFE6;
+$border-base : #feb404;
 $border-light : #E4E7ED;
 $border-lighter : #EBEEF5;
 $border-lightex : #F2F6FC;
+
+$hover-base : #feb404;
