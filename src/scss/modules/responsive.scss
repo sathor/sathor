@@ -83,7 +83,7 @@ $container-padding-s: 60px;
 
   }
 
-  #possibilities-other-container {
+  #possibilities-more-container {
     display: block;
     position: absolute;
     width: 75vw;
@@ -271,7 +271,7 @@ $container-padding-s: 60px;
     }
   }
 
-  .activity {
+  .possibilities-more {
     .container {
       padding: 40px $container-padding-s;
     }
@@ -441,7 +441,7 @@ $container-padding-s: 60px;
     }
   }
 
-  .activity {
+  .possibilities-more {
     .action__description {
       height: 150px;
       width: 760px;
@@ -603,7 +603,7 @@ $container-padding-s: 60px;
 }
 
 @media (max-width: 990px) {
-  .activity {
+  .possibilities-more {
     .action__description {
       height: 150px;
       width: 560px;
@@ -738,7 +738,7 @@ $container-padding-s: 60px;
     }
   }
 
-  .activity {
+  .possibilities-more {
     .action {
       padding: 0;
     }
@@ -850,7 +850,7 @@ $container-padding-s: 60px;
     }
   }
 
-  .activity {
+  .possibilities-more {
     .container {
       padding: 15px;
     }
@@ -1236,7 +1236,7 @@ $container-padding-s: 60px;
     padding-top: 30px;
   }
 
-  #possibilities-other-container {
+  #possibilities-more-container {
     padding-top: 10px;
   }
 
