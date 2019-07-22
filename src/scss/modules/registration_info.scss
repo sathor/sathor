@@ -1,0 +1,73 @@
+#registration-info-container {
+  height: 100vh;
+  width: $containerWidth;
+  margin: 0 auto;
+  padding: 0;
+
+
+  .registration-info-wrapper {
+    position: absolute;
+    width: $containerWidth;
+    height: $sectionContentHeight + 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+    .registration-info__header {
+      color: #000;
+      font-size: rem(64);
+      line-height: 1.2;
+      font-weight: 300;
+      margin: 0;
+      margin-bottom: rem(100);
+      margin-top: rem(120);
+
+      &:before {
+        margin-bottom: rem(50);
+        width: rem(110);
+        background-color: #000;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 0;
+        position: relative;
+        top: 0;
+        z-index: 3;
+      }
+
+      b {
+        font-weight: 500;
+      }
+    }
+
+    .registration-info__logo {
+      position: absolute;
+      top: 0;
+      right: 0;
+      img {
+        max-width: 100%;
+        max-height: auto;
+      }
+    }
+
+    .registration-info__text {
+      color: #000;
+      font-size: rem(34);
+      line-height: 1.2;
+      font-weight: 300;
+      text-transform: uppercase;
+      margin: 0;
+      margin-bottom: rem(60);
+
+      b {
+        font-weight: 500;
+      }
+    }
+
+    .join {
+      margin: 0 auto;
+      margin-top: rem(180);
+    }
+  }
+}
