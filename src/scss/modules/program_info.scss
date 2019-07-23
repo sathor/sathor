@@ -6,16 +6,17 @@
 }
 
 .program-info-wrapper {
-    position: absolute;
-    width: $containerWidth;
-    height: 100vh;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  width: $containerWidth;
+  height: 100vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .program-info {
   position: relative;
+
   .col.photo {
     position: absolute;
     width: 50%;
@@ -23,6 +24,7 @@
     right: 0;
     top: 50%;
     transform: translateY(-50%);
+
     &:after {
       background-color: #000;
       content: "";
@@ -34,12 +36,14 @@
       width: 100%;
     }
   }
+
   h2 {
     -webkit-animation-duration: 6s;
     animation-duration: 6s;
     -webkit-animation-iteration-count: .25;
     animation-iteration-count: 0.25;
   }
+
   .line-1 {
     background-color: transparent;
     position: absolute;
@@ -49,6 +53,7 @@
     width: 100%;
     left: 0;
     top: 0;
+
     i {
       background-color: #feb404;
       display: block;
@@ -60,6 +65,7 @@
       transition: width 0.4s ease-out 1.2s;
     }
   }
+
   .line-2 {
     background-color: transparent;
     position: absolute;
@@ -69,6 +75,7 @@
     width: 5px;
     top: 0;
     right: 0;
+
     i {
       background-color: #feb404;
       display: block;
@@ -80,6 +87,7 @@
       transition: height 0.4s ease-out 0.8s;
     }
   }
+
   .line-3 {
     background-color: transparent;
     position: absolute;
@@ -89,6 +97,7 @@
     width: 100%;
     right: 0;
     bottom: 0;
+
     i {
       background-color: #feb404;
       display: block;
@@ -100,6 +109,7 @@
       transition: width 0.4s ease-out 0.4s;
     }
   }
+
   .line-4 {
     background-color: transparent;
     position: absolute;
@@ -109,6 +119,7 @@
     width: 5px;
     bottom: 0;
     left: 0;
+
     i {
       background-color: #feb404;
       display: block;
@@ -120,28 +131,33 @@
       transition: height 0.4s ease-out 0s;
     }
   }
+
   .animated {
     .line-1 i {
       height: 100%;
       width: 100%;
       transition: width 0.4s ease-out 0s;
     }
+
     .line-2 i {
       height: 100%;
       width: 100%;
       transition: height 0.4s ease-out 0.4s;
     }
+
     .line-3 i {
       height: 100%;
       width: 100%;
       transition: width 0.4s ease-out 0.8s;
     }
+
     .line-4 i {
       height: 100%;
       width: 100%;
       transition: height 0.4s ease-out 1.2s;
     }
   }
+
   // .col.text {
   //   position: relative;
   //   p {
@@ -154,6 +170,7 @@
   .join {
     margin: 60px auto auto;
   }
+
   .text-inner {
     padding: 0 2.125rem 0 6.25rem;
     position: relative;
@@ -170,36 +187,39 @@
       margin-top: rem(50);
       margin-bottom: rem(80);
     }
+
     p {
       margin: 0;
       font-weight: 300;
-      margin-top: rem(50);
       // margin-bottom: rem(5);
       font-size: rem(36);
       text-transform: uppercase;
       line-height: 1.6;
     }
+
     ul {
       margin: 0;
       margin-top: rem(32);
       margin-bottom: rem(18);
       padding-left: rem(55);
+
       li {
         font-size: rem(21);
         line-height: 1.3;
-    }
       }
     }
-    p.asterisk {
-      padding-top: rem(30);
-      padding-left: rem(30);
-      font-size: rem(13);
-      line-height: 1.1;
-    }
-    b {
-      font-size: rem(76);
-      font-weight: 500;
-    }
+  }
+
+  p.asterisk {
+    padding-top: rem(30);
+    padding-left: rem(30);
+    font-size: rem(13);
+    line-height: 1.1;
+  }
+
+  b {
+    font-size: rem(76);
+    font-weight: 500;
   }
 }
 
@@ -211,12 +231,15 @@
   position: absolute;
   bottom: rem(40);
   margin-top: 50px;
+
   p {
     margin: 0;
     font-size: 18px;
+
     a {
       font-size: 18px;
     }
+
     &.bold {
       font-weight: 700;
     }
@@ -225,8 +248,9 @@
 
 .program-info__photo {
   position: relative;
+
   img {
-    margin:100px 0;
+    margin: 100px 0;
     height: 450px;
     width: 100%;
   }
@@ -243,6 +267,7 @@
     background-size: contain;
     bottom: 0;
   }
+
   &:before {
     height: 75px;
     content: "";
@@ -261,6 +286,7 @@
 .program-info__description {
   position: relative;
   transition: all 0.5s ease-in-out;
+
   p {
     font-size: 16px;
     font-size: 1rem;

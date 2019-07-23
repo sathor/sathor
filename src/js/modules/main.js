@@ -3,7 +3,7 @@ $(document).ready(function () {
 	var readMore = {
 		attach: function () {
 			this.initialize('.about-us__description p', 7, 'Читати далі...', 'Згорнути', '140px', '1000px');
-			this.initialize('.partners__text', 5, 'Читати далі...', 'Згорнути', '140px', '1000px');
+			this.initialize('.location__text', 5, 'Читати далі...', 'Згорнути', '140px', '1000px');
 		},
 		initialize: function (el, lines, readMore, readLess, minHeight, maxHeight) {
 			$(el).trunk8({
@@ -41,14 +41,14 @@ $(document).ready(function () {
 		}
 	};
 
-	var allPartners = {
+	var alllocation = {
 		attach: function () {
-			// Partners block
-			this.callModal('#partners .all-partners', '#partners', '#partners .partners__description img', 'Усі <span>партнери</span>', 'partners-modal');
-			this.removeModal('#partners-modal .close, #partners-modal-overlay', '#partners-modal');
-			this.moveSlide('#partners-modal .logo-wrapper', 4, 1);
+			// location block
+			this.callModal('#location .all-location', '#location', '#location .location__description img', 'Усі <span>партнери</span>', 'location-modal');
+			this.removeModal('#location-modal .close, #location-modal-overlay', '#location-modal');
+			this.moveSlide('#location-modal .logo-wrapper', 4, 1);
 
-			// Partners block
+			// location block
 			this.callModal('#possibilities .all-possibilities', '#possibilities', '#possibilities img', 'Усі <span>проекти</span>', 'possibilities-modal');
 			this.removeModal('#possibilities-modal .close, #possibilities-modal-overlay', '#possibilities-modal');
 			this.moveSlide('#possibilities-modal .logo-wrapper', 5, 2);
@@ -122,7 +122,7 @@ $(document).ready(function () {
 				css3: true,
 				showActiveTooltip: true,
 				autoScrolling: true,
-				normalScrollElements: '.partners__text, .possibilities-modal, .partners-modal, .possibilities-modal-overlay, .partners-modal-overlay, .preloader-wrapper, .header__menu, .project__video-overlay, .project__video',
+				normalScrollElements: '.location__text, .possibilities-modal, .location-modal, .possibilities-modal-overlay, .location-modal-overlay, .preloader-wrapper, .header__menu, .project__video-overlay, .project__video',
 				anchors: ['firstSection', 'videoSection', 'secondSection', 'otherSection', 'thirdSection', 'fourthSection', 'fifthSection', 'sixthSection'],
 				menu: '#myMenu',
 				responsiveWidth: 1200,
@@ -165,19 +165,19 @@ $(document).ready(function () {
 
 					// location section index=7
 					if (index == 1 && direction == 'down') {
-						$('.partners__wrapper').addClass('animated');
+						$('.location__wrapper').addClass('animated');
 					}
 
 					if (index == 6 && direction == 'down') {
-						$('.partners__wrapper').addClass('animated');
+						$('.location__wrapper').addClass('animated');
 					}
 
 					if (index == 7) {
-						$('.partners__wrapper').removeClass('animated');
+						$('.location__wrapper').removeClass('animated');
 					}
 
 					if (index == 8 && direction == 'up') {
-						$('.partners__wrapper').addClass('animated');
+						$('.location__wrapper').addClass('animated');
 					}
 				}
 			});
@@ -278,7 +278,7 @@ $(document).ready(function () {
 
 	readMore.attach();
 	moreDetails.attach();
-	allPartners.attach();
+	alllocation.attach();
 	preloader.attach();
 	fullPage.attach();
 	headMenu.attach();

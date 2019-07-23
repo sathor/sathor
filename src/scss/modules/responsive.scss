@@ -139,7 +139,7 @@ $container-padding-s: 60px;
     padding-left: 80px;
     padding-right: 80px;
 
-    .partners__description-wrapper {
+    .location__description-wrapper {
       h2 div{
         font-size: 38px;
       }
@@ -195,8 +195,8 @@ $container-padding-s: 60px;
     padding: 40px $container-padding-s;
   }
 
-  .partners {
-    .partners__description-wrapper {
+  .location {
+    .location__description-wrapper {
 
       padding-left: 10px;
 
@@ -212,7 +212,7 @@ $container-padding-s: 60px;
     }
   }
 
-  .partners__description {
+  .location__description {
     p {
       margin-top: 90px;
       font-size: 28px;
@@ -482,7 +482,7 @@ $container-padding-s: 60px;
     height: auto;
   }
 
-  .partners {
+  .location {
     margin: 25px 0;
 
     .line-1 {
@@ -506,14 +506,14 @@ $container-padding-s: 60px;
     }
   }
 
-  .partners {
-    .partners__description-wrapper {
+  .location {
+    .location__description-wrapper {
       padding-left: 0;
       padding-right: 0;
       width: 100%;
     }
 
-    .partners__description {
+    .location__description {
       padding: 0;
       position: relative;
 
@@ -522,11 +522,11 @@ $container-padding-s: 60px;
       }
     }
 
-    .partners__text {
+    .location__text {
       padding: 0;
     }
 
-    .partners__block-border {
+    .location__block-border {
       height: 100%;
       top: 0;
       width: 100%;
@@ -1082,7 +1082,7 @@ $container-padding-s: 60px;
     }
   }
 
-  .partners-modal {
+  .location-modal {
     .logo-wrapper {
       width: 50%;
     }
@@ -1101,7 +1101,7 @@ $container-padding-s: 60px;
     }
   }
 
-  .partners {
+  .location {
     h2 {
       div {
         font-size: 32px;
@@ -1115,7 +1115,7 @@ $container-padding-s: 60px;
     }
   }
 
-  .partners__description-wrapper {
+  .location__description-wrapper {
     h2.black {
       line-height: 1.2;
 
