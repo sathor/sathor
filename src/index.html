@@ -429,8 +429,8 @@
       <div class="last-block section fp-auto-height-responsive" id="connect" data-anchor="sixthSection">
         <div class="connect">
           <div class="line up yellow"></div>
-          <img src="images/footer-photo.png" alt="">
-          <div class="container text top-m">
+          <img class="connect__bgimg" src="images/footer-photo.png" alt="">
+          <div class="container text" id="connect-container">
             <h3 class="white">ПРИЄДНАТИСЯ</h3>
             <div action="" class="connect__form">
               <form action="" method="post" class="callback-sub">
@@ -451,10 +451,11 @@
                   <div class="line-1"><i></i></div>
                 </div>
                 <div class="input-wrapper">
-                  <label class="white">ПОЛІТИКА КОНФІДЕНЦІЙНОСТІ:
+                  <label class="white" id="privacy-policy-label">ПОЛІТИКА КОНФІДЕНЦІЙНОСТІ:
                   </label>
-                  <input type="checkbox" id="privacy-policy" class="" value="agree" />
-                  <label class="white" for="privacy-policy" style="display: inline">
+                  <label class="privicy-policy-checkbox white" for="privacy-policy">
+                  <input type="checkbox" id="privacy-policy" class="visually-hidden" value="agree">
+                  <span class="checkbox-indicator"></span>
                     Я ПРОЧИТАВ ПОЛІТИКУ КОНФІДЕНЦІЙНОСТІ, І ПОГОДЖУЮСЬ ЩО МОЇ ДАНІ БУДУТЬ
                     ЗБЕРІГАТИСЯ В ЕЛЕКТРОННОМУ ВИГЛЯДІ<br></label>
                 </div>
@@ -484,7 +485,7 @@
                 <p>ФАКС: +49 6404 69749-29</p>
               </div>
               <div class="development flex">
-                <div class="rights">Всі права захищені</div>
+                <div class="rights"><p>Всі права захищені</p></div>
                 <!-- <div class="line-hor"></div>
                                     <div class="about-dev flex">
                                         <div class="text">Разработка сайта:</div>
