@@ -134,6 +134,7 @@
     .registration-info__logo {
       display: none;
     }
+
     .registration-info-wrapper {
       height: auto;
       position: relative;
@@ -143,12 +144,21 @@
       transform: translate(0, 0);
 
       .registration-info__header {
-        margin-bottom: rem(100);
+        margin-bottom: rem(30);
         margin-top: 0;
 
-        .join {
-          margin-top: 10px;
-        }
+      }
+
+      .registration-info__text {
+        font-size: rem(34);
+        line-height: 1.2;
+        margin: 0;
+        margin-bottom: rem(25);
+      }
+
+      .join {
+        margin-left: 0;
+        margin-top: 10px;
       }
     }
   }

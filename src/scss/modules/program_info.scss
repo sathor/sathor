@@ -186,6 +186,18 @@
       font-weight: 300;
       margin-top: rem(50);
       margin-bottom: rem(80);
+      &:before {
+        margin-bottom: rem(50);
+        width: rem(110);
+        background-color: #000;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 0;
+        position: relative;
+        top: 0;
+        z-index: 3;
+      }
     }
 
     p {
@@ -435,17 +447,18 @@
       width: 100%;
       &.program-content {
         h2 {
+          font-size: rem(64);
           margin-top: 0;
-          margin-bottom: 0;
+          margin-bottom: rem(25);
         }
 
         p {
           margin: 0;
           font-weight: 300;
           // margin-bottom: rem(5);
-          font-size: rem(36);
+          font-size: rem(34);
           text-transform: uppercase;
-          line-height: 1.6;
+          line-height: 1.2;
         }
 
         ul {
@@ -469,8 +482,7 @@
       }
 
       b {
-        font-size: rem(76);
-        font-weight: 500;
+        font-size: rem(64);
       }
     }
 
