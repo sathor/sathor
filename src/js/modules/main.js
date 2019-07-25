@@ -410,7 +410,7 @@ $(document).ready(function () {
 	var firstScreen = document.querySelector('#main-block');
 
 	function handleFullPageToggle() {
-		if (window.innerWidth < 674) {
+		if (window.innerWidth <= 850) {
 			if (!firstScreen.classList.contains(classNotFull)) {
 				firstScreen.classList.add(classNotFull)
 			}

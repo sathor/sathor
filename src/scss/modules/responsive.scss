@@ -139,7 +139,7 @@ $container-padding-s: 60px;
     padding-left: 80px;
     padding-right: 80px;
 
-    .location__description-wrapper {
+    .partners__description-wrapper {
       h2 div{
         font-size: 38px;
       }
@@ -195,8 +195,8 @@ $container-padding-s: 60px;
     padding: 40px $container-padding-s;
   }
 
-  .location {
-    .location__description-wrapper {
+  .partners {
+    .partners__description-wrapper {
 
       padding-left: 10px;
 
@@ -212,14 +212,14 @@ $container-padding-s: 60px;
     }
   }
 
-  .location__description {
+  .partners__description {
     p {
       margin-top: 90px;
       font-size: 28px;
     }
   }
 
-  .program-info {
+  .about-us {
     .join {
       margin-top: 40px;
     }
@@ -400,7 +400,7 @@ $container-padding-s: 60px;
     padding: 80px 15px;
   }
 
-  .program-info {
+  .about-us {
     margin: 25px 0;
 
     .text-inner {
@@ -482,7 +482,7 @@ $container-padding-s: 60px;
     height: auto;
   }
 
-  .location {
+  .partners {
     margin: 25px 0;
 
     .line-1 {
@@ -506,14 +506,14 @@ $container-padding-s: 60px;
     }
   }
 
-  .location {
-    .location__description-wrapper {
+  .partners {
+    .partners__description-wrapper {
       padding-left: 0;
       padding-right: 0;
       width: 100%;
     }
 
-    .location__description {
+    .partners__description {
       padding: 0;
       position: relative;
 
@@ -522,11 +522,11 @@ $container-padding-s: 60px;
       }
     }
 
-    .location__text {
+    .partners__text {
       padding: 0;
     }
 
-    .location__block-border {
+    .partners__block-border {
       height: 100%;
       top: 0;
       width: 100%;
@@ -783,7 +783,7 @@ $container-padding-s: 60px;
     display: none;
   }
 
-  .program-info {
+  .about-us {
     .col.text {
       h2 {
         font-size: 32px;
@@ -1082,7 +1082,7 @@ $container-padding-s: 60px;
     }
   }
 
-  .location-modal {
+  .partners-modal {
     .logo-wrapper {
       width: 50%;
     }
@@ -1101,7 +1101,7 @@ $container-padding-s: 60px;
     }
   }
 
-  .location {
+  .partners {
     h2 {
       div {
         font-size: 32px;
@@ -1115,7 +1115,7 @@ $container-padding-s: 60px;
     }
   }
 
-  .location__description-wrapper {
+  .partners__description-wrapper {
     h2.black {
       line-height: 1.2;
 

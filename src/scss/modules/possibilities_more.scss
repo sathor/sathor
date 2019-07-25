@@ -26,21 +26,21 @@
   .possibilities-more-wrapper {
     position: absolute;
     width: $containerWidth;
-    height: 700px;
+    height: rem(700);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -54%);
 
     .action {
       width: $containerWidth / 2 - 10px;
-      height: 330px;
+      height: rem(330);
       box-sizing: border-box;
 
       // display: inline-block;
       // padding: 5px;
       &:hover {
         .action__description {
-          max-height: 330px;
+          max-height: rem(330);
           transition: all 0.5s ease-in-out;
         }
 
@@ -195,8 +195,9 @@
 
       &:nth-child(3) {
         .action__description {
-          height: 200px;
+          height: rem(200);
         }
+
         &:hover {
           h3 {
             font-size: rem(22);
@@ -237,7 +238,7 @@
     .action__description {
       height: 100%;
       width: 100%;
-      font-size: 12px;
+      font-size: rem(12);
       margin-top: rem(15);
       font-weight: 500;
       line-height: 1.2;
@@ -252,8 +253,8 @@
       }
 
       .action__title {
-        margin-top: 10px;
-        font-size: 14px;
+        margin-top: rem(10);
+        font-size: rem(14);
         font-weight: 700;
       }
 
@@ -302,11 +303,11 @@
 }
 
 .action__list {
-  padding-left: 15px;
+  padding-left: rem(15);
 }
 
 .ulist {
-  font-size: 12px;
+  font-size: rem(12);
   list-style-position: inside;
 }
 
@@ -316,15 +317,154 @@
 }
 
 .ulist__item--inner {
-  padding-left: 20px;
+  padding-left: rem(20);
   list-style-type: disc;
 }
 
 .action__subtitle {
-  margin-top: 5px;
+  margin-top: rem(5);
 }
 
 .action__text--italic {
-  padding-left: 15px;
+  padding-left: rem(15);
   font-style: italic;
+}
+
+@media (max-width: 1500px) {
+
+  #possibilities-more-container {
+    .possibilities-more-wrapper {
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
+      width: 1000px;
+      height: 540px;
+
+      .action {
+        width: 490px;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 1366px) and (max-height: 700px) {
+
+  #possibilities-more-container {
+    .possibilities-more-wrapper {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 900px;
+      height: 480px;
+
+      .action {
+        width: 440px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1150px) {
+
+  #possibilities-more-container {
+    .possibilities-more-wrapper {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 800px;
+      height: 436px;
+
+      .action {
+        width: 394px;
+      }
+    }
+  }
+}
+
+@media (max-width: 850px) {
+
+  #possibilities-more-container {
+    height: auto;
+    margin: 0 15px;
+    margin-top: 50px;
+
+    .possibilities-more-wrapper {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: translate(0, 0);
+      width: auto;
+      height: auto;
+
+      .action {
+        overflow: hidden;
+        margin: 0;
+        margin-bottom: 15px;
+        width: 100%;
+        height: 220px;
+      }
+    }
+  }
+
+  .action__inner-first {
+    position: relative;
+    height: 220px;
+
+    // &:after {
+    //   background-color: #000;
+    //   content: "";
+    //   height: auto;
+    //   left: 0;
+    //   opacity: .5;
+    //   position: absolute;
+    //   top: 0;
+    //   width: 100%;
+    //   z-index: 1;
+    // }
+
+    img {
+      max-width: 100%;
+      min-height: 220px;
+    }
+  }
+
+  .action__inner {
+    box-sizing: border-box;
+    padding: 0;
+    left: 0;
+    top: 0;
+    position: relative;
+    transform: translate(0, 0);
+    width: 100%;
+    z-index: 2;
+
+    h3 {
+      font-size: rem(34);
+      font-weight: 300;
+      text-transform: uppercase;
+      transition: all 0.5s ease-in-out;
+
+      &:before {
+        margin-bottom: rem(29);
+        width: rem(65);
+        background-color: #fff;
+        content: "";
+        display: block;
+        height: 2px;
+        transition: all 0.5s ease-in-out;
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+
+  .action__inner-first {
+
+    img {
+      min-width: 410px;
+      min-height: 220px;
+    }
+  }
 }

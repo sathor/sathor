@@ -44,8 +44,7 @@ h2.black {
 
 
 .button {
-  font-size: 12px;
-  font-size: .75rem;
+  font-size: rem(12);
   align-items: center;
   cursor: pointer;
   display: flex;
@@ -53,10 +52,10 @@ h2.black {
   justify-content: center;
 
   &.normal {
-    height: 43px;
+    height: rem(43);
     position: relative;
     text-transform: uppercase;
-    width: 135px;
+    width: rem(135);
 
     &:after {
       content: "";
@@ -67,7 +66,7 @@ h2.black {
       top: 50%;
       transform: translateX(-50%);
       transition: all .5s ease-in-out;
-      width: 24px;
+      width: rem(24);
       z-index: 4;
     }
 
