@@ -268,7 +268,7 @@
     background: url(../images/down.png) no-repeat 50%;
     background-size: contain;
     cursor: pointer;
-    left: calc(50% - 75px/2 - 20px);
+    left: calc(50% - 35px - 20px);
     position: absolute;
     z-index: 3;
   }
@@ -561,7 +561,7 @@
   .socials-wrapper {
     left: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: transparent;
   }
 }

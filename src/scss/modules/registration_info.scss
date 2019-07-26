@@ -163,3 +163,13 @@
     }
   }
 }
+
+@media (max-width: 450px) {
+  #registration-info-container {
+    .registration-info-wrapper {
+      .registration-info__header {
+        font-size: rem(54);
+      }
+    }
+  }
+}

@@ -7,7 +7,6 @@
 
 .connect {
   // padding: 2.6875rem 0 8.75rem;
-  height: 100vh;
   overflow: hidden;
   position: relative;
 
@@ -66,8 +65,7 @@
     }
 
     .subcription-button {
-      font-size: 12px;
-      font-size: .75rem;
+      font-size: rem(12);
       padding-right: 1.25rem;
       background: url(../images/right-thin-chevron.png) no-repeat 100%;
       border: 0;
@@ -116,7 +114,7 @@
 
   .privicy-policy-checkbox {
     position: relative;
-    padding-left: 30px;
+    padding-left: rem(30);
     cursor: pointer;
   }
 
@@ -125,38 +123,41 @@
     color: $hover-base;
   }
 
-  .privicy-policy-checkbox input[type="checkbox"] + .checkbox-indicator {
+  .privicy-policy-checkbox input[type="checkbox"]+.checkbox-indicator {
     position: absolute;
-    top: 5px;
+    top: 50%;
+    transform: translateY(-50%);
     left: 0;
-    width: 15px;
-    height: 15px;
-    border: 2px solid #fff;
+    width: rem(15);
+    height: rem(15);
+    border: rem(2) solid #fff;
 
   }
 
-  .privicy-policy-checkbox input[type="checkbox"]:focus + .checkbox-indicator {
+  .privicy-policy-checkbox input[type="checkbox"]:focus+.checkbox-indicator {
     // border-color: $hover-base;
     outline: thin dotted;
   }
 
-  .privicy-policy-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before,
-  .privicy-policy-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
+  .privicy-policy-checkbox input[type="checkbox"]:checked+.checkbox-indicator::before,
+  .privicy-policy-checkbox input[type="checkbox"]:checked+.checkbox-indicator::after {
     content: "";
     position: absolute;
-    top: 7px;
-    left: 1px;
-    width: 13px;
-    height: 2px;
+    top: rem(7);
+    left: rem(1);
+    width: rem(13);
+    height: rem(2);
     background-color: #fff;
   }
 
-  .privicy-policy-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
+  .privicy-policy-checkbox input[type="checkbox"]:checked+.checkbox-indicator::before {
     transform: rotate(45deg)
   }
-  .privicy-policy-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
+
+  .privicy-policy-checkbox input[type="checkbox"]:checked+.checkbox-indicator::after {
     transform: rotate(-45deg)
   }
+
   .yellow {
     margin: 0;
     margin-top: rem(30);
@@ -172,7 +173,7 @@
 
 .footer {
   width: $containerWidth;
-  bottom: 0;
+  bottom: rem(5);
   left: 50%;
   position: absolute;
   transform: translateX(-50%);
@@ -200,6 +201,8 @@
 
     p {
       margin: 0;
+      // margin-left: rem(12);
+      margin-left: 0;
       font-size: rem(16);
       font-weight: 300;
     }
@@ -432,4 +435,113 @@ input[type="radio"].visually-hidden {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+@media (max-width: 1500px) {
+  #connect-container {
+    width: 1000px;
+  }
+
+  .footer {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 1500px) and (max-height: 800px) {
+  #connect-container {
+    width: 1000px;
+  }
+
+  .footer {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 1366px) and (max-height: 700px) {
+  #connect-container {
+    width: 800px;
+  }
+
+  .footer {
+    width: 800px;
+  }
+}
+
+@media (max-width: 1150px) {
+  #connect-container {
+    width: 780px;
+  }
+
+  .footer {
+    width: 780px;
+
+    .flex {
+      // .contacts {
+      //   width: 240px;
+      // }
+      // .development {
+      //   width: 200px;
+      // }
+      // .socials-wrapper {
+      //   width: 240px;
+      // }
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  #connect-container {
+    width: auto;
+    height: 625px;
+  }
+
+  .connect {
+    h3 {
+      margin-top: 45px;
+      margin-bottom: 15px;
+    }
+  }
+
+  .connect__form {
+    padding: 0 15px;
+    max-width: auto;
+  }
+
+  .footer {
+    width: 100%;
+
+    .flex {
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+
+      .contacts {
+        order: 1;
+        width: 100%;
+
+        p {
+          text-align: center;
+        }
+      }
+
+      .development {
+        order: 3;
+        width: 100%;
+      }
+
+      .socials-wrapper {
+        order: 2;
+        width: 100%;
+        margin: 10px 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .connect {
+    h3 {
+      font-size: rem(54);
+    }
+  }
 }

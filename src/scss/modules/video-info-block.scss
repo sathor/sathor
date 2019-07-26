@@ -152,8 +152,7 @@
   background-size: contain;
   cursor: pointer;
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  left: calc(50% - 20px);
   z-index: 3;
 }
 
@@ -164,6 +163,12 @@
 
   .video-info-content {
     width: 1000px;
+  }
+  .down.arrow_video {
+    left: calc(50% - 16px);
+  }
+  .down.arrow {
+    left: calc(50% - 35px - 16px);
   }
 }
 
@@ -178,6 +183,12 @@
 
   .video-info-content {
     width: 800px;
+  }
+  .down.arrow_video {
+    left: calc(50% - 12px);
+  }
+  .down.arrow {
+    left: calc(50%);
   }
 }
 

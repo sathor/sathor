@@ -94,11 +94,10 @@ h2.black {
   }
 
   &.yellow {
-    font-size: 14px;
-    font-size: .875rem;
+    font-size: rem(14);
     border: 1px solid #feb404;
     box-shadow: none;
-    height: 50px;
+    height: rem(50);
     width: 100%;
   }
 
@@ -108,9 +107,9 @@ h2.black {
 
   &.small {
     font-weight: 500;
-    height: 35px;
+    height: rem(35);
     text-transform: capitalize;
-    width: 110px;
+    width: rem(110);
   }
 }
 
@@ -121,50 +120,53 @@ a[href*="facebook.com"] {
   height: 20px;
   display: inline-block;
 
-  &:after {
-    background: url(../images/facebook-yellow.png) no-repeat 50%;
+  // &:after {
+  //   background: url(../images/facebook-yellow.png) no-repeat 50%;
+  // }
+  &:hover {
+    border-bottom: 1px solid $border-base;
   }
 }
 
 .socials-wrapper a {
-  &[href*="instagram.com"] {
-    background-image: url(../images/sprite.png);
-    background-position: -21px -41px;
-    width: 18px;
-    height: 19px;
-    display: inline-block;
+  // &[href*="instagram.com"] {
+  //   background-image: url(../images/sprite.png);
+  //   background-position: -21px -41px;
+  //   width: 18px;
+  //   height: 19px;
+  //   display: inline-block;
 
-    &:after {
-      background: url(../images/insta-icon-yellow.png) no-repeat 50%;
-      background-size: contain;
-    }
-  }
+  //   &:after {
+  //     background: url(../images/insta-icon-yellow.png) no-repeat 50%;
+  //     background-size: contain;
+  //   }
+  // }
 
-  opacity: 1;
-  position: relative;
-  transition: all 0.5s ease-in-out;
+  // opacity: 1;
+  // position: relative;
+  // // transition: all 0.1s ease-in-out;
 
-  &:after {
-    background-size: cover;
-    content: "";
-    display: block;
-    height: 100%;
-    left: 0;
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    transition: all .5s ease-in-out;
-    width: 100%;
-  }
+  // &:after {
+  //   background-size: cover;
+  //   content: "";
+  //   display: block;
+  //   height: 100%;
+  //   left: 0;
+  //   opacity: 0;
+  //   position: absolute;
+  //   top: 0;
+  //   transition: all .5s ease-in-out;
+  //   width: 100%;
+  // }
 
-  &:hover {
-    transition: all 0.5s ease-in-out;
+  // &:hover {
+  //   transition: all 0.5s ease-in-out;
 
-    &:after {
-      opacity: 1;
-      transition: all 0.5s ease-in-out;
-    }
-  }
+  //   &:after {
+  //     opacity: 1;
+  //     transition: all 0.5s ease-in-out;
+  //   }
+  // }
 }
 
 a {
@@ -175,9 +177,14 @@ a {
     height: 21px;
     display: inline-block;
 
-    &:after {
-      background: url(../images/yt-icon-yellow.png) no-repeat 50%;
-    }
+  &:hover {
+    border-bottom: 1px solid $border-base;
+  }
+    // &:after {
+    //   background: url(../images/yt-icon-yellow.png) no-repeat 50%;
+    //   width: 17px;
+    //   height: 21px;
+    // }
   }
 
   &[href*="linkedin.com"] {

@@ -186,6 +186,7 @@
       font-weight: 300;
       margin-top: rem(50);
       margin-bottom: rem(80);
+
       &:before {
         margin-bottom: rem(50);
         width: rem(110);
@@ -445,6 +446,7 @@
 
     .col.text {
       width: 100%;
+
       &.program-content {
         h2 {
           font-size: rem(64);
@@ -495,5 +497,31 @@
     bottom: 0;
     position: relative;
     margin-top: 5px;
+  }
+}
+
+@media (max-width: 450px) {
+
+  .program-info-wrapper {
+    .col.text {
+      &.program-content {
+        h2 {
+          font-size: rem(54);
+        }
+      }
+
+        b {
+          font-size: rem(54);
+        }
+      .col.photo {
+        display: none;
+      }
+    }
+
+    .program-footer {
+      bottom: 0;
+      position: relative;
+      margin-top: 5px;
+    }
   }
 }
