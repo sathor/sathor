@@ -133,12 +133,13 @@
     }
   }
 
-  img {
+  img,
+  iframe {
     // display: block;
-    width: $containerWidth;
+    width: 100%;
     // max-height: 100%;
     // max-width: $containerWidth;
-    height: auto;
+    height: rem(700);
   }
 }
 
@@ -164,9 +165,11 @@
   .video-info-content {
     width: 1000px;
   }
+
   .down.arrow_video {
     left: calc(50% - 16px);
   }
+
   .down.arrow {
     left: calc(50% - 35px - 16px);
   }
@@ -184,9 +187,11 @@
   .video-info-content {
     width: 800px;
   }
+
   .down.arrow_video {
     left: calc(50% - 12px);
   }
+
   .down.arrow {
     left: calc(50%);
   }
@@ -194,18 +199,28 @@
 
 @media (max-width: 850px) {
 
-#video-info-container {
-  height: 100%;
-  margin: 0 auto;
-  margin-top: 50px;
-  padding: 0 15px;
+  #video-info-container {
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 0 15px;
 
-}
+  }
+
   .video-info-content {
     position: relative;
     top: 0;
     left: 0;
     transform: translate(0, 0);
     width: calc(100vw - 30px);
+  }
+}
+
+@media (max-width: 500px) {
+  .video-info-content {
+
+    iframe {
+      height: 320px;
+    }
   }
 }
