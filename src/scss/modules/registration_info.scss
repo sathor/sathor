@@ -164,11 +164,52 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 420px) {
   #registration-info-container {
+    margin: 0 30px;
+    margin-top: 15px;
+
     .registration-info-wrapper {
       .registration-info__header {
-        font-size: rem(54);
+        font-size: 26px;
+        padding-top: 150px;
+        margin-bottom: 25px;
+
+        &:before {
+          margin-bottom: 28px;
+          width: 36px;
+        }
+      }
+
+      .registration-info__text {
+        font-size: 13px;
+        font-weight: 500;
+        margin-bottom: 20px;
+
+      }
+
+    .registration-info__logo {
+      display: block;
+      img{
+      height: 160px;
+      width: auto;
+      }
+    }
+      .join.button {
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 40px;
+        font-size: 11px;
+        font-weight: 500;
+
+        &.normal {
+          height: 43px;
+          width: 135px;
+
+          &:after {
+            width: 24px;
+          }
+        }
       }
     }
   }
