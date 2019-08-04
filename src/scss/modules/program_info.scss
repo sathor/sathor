@@ -219,7 +219,7 @@
       li {
         font-size: rem(21);
         line-height: 1.3;
-        text-transform:uppercase;
+        text-transform: uppercase;
       }
     }
   }
@@ -313,58 +313,70 @@
     transition: all 0.5s ease-in-out;
   }
 }
+
 .accordion {
-    margin:0 auto;
-    // font-size:14px;
-    // border:1px solid #542437;
-    // border-radius:10px;
-    width:100%;
-    background:#fff;
+  margin: 0 auto;
+  // font-size:14px;
+  // border:1px solid #542437;
+  // border-radius:10px;
+  width: 100%;
+  background: #fff;
 }
+
 .accordion .accordion__list {
-    list-style:none;
-    margin:0;
-    padding:0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
+
 .accordion .accordion__item {
-    margin:0;
-    padding:0;
+  margin: 0;
+  padding: 0;
 }
-.accordion [type=radio], .accordion [type=checkbox] {
-    display:none;
+
+.accordion [type=radio],
+.accordion [type=checkbox] {
+  display: none;
 }
+
 .accordion label {
-    display:block;
-    // font-size:16px;
-    // line-height:16px;
-    // background:#D95B43;
-    // border:1px solid #542437;
-    // color:#542437;
-    // text-shadow:1px 1px 1px rgba(255,255,255,0.3);
-    font-weight:700;
-    cursor:pointer;
-    text-transform:uppercase;
-    -webkit-transition: all .2s ease-out;
-    -moz-transition: all .2s ease-out;
-    transition: all .2s ease-out;
+  display: block;
+  // font-size:16px;
+  // line-height:16px;
+  // background:#D95B43;
+  // border:1px solid #542437;
+  // color:#542437;
+  // text-shadow:1px 1px 1px rgba(255,255,255,0.3);
+  font-weight: 700;
+  cursor: pointer;
+  text-transform: uppercase;
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  transition: all .2s ease-out;
 }
-.accordion .accordion__list .accordion__item label:hover, .accordion [type=radio]:checked ~ label, .accordion [type=checkbox]:checked ~ label {
-    // background:#C02942;
-    // color:red;
-    // text-shadow:1px 1px 1px rgba(0,0,0,0.5)
-    p {
-      font-weight: 500;
-    }
+
+.accordion .accordion__list .accordion__item label:hover,
+.accordion [type=radio]:checked~label,
+.accordion [type=checkbox]:checked~label {
+
+  // background:#C02942;
+  // color:red;
+  // text-shadow:1px 1px 1px rgba(0,0,0,0.5)
+  p {
+    font-weight: 500;
+  }
 }
+
 .accordion .content {
-    // padding:0 10px;
-    padding: 0 rem(10);
-    overflow:hidden;
-    // border:1px solid #fff; /* Make the border match the background so it fades in nicely */
-    -webkit-transition: all .5s ease-out;
-    -moz-transition: all .5s ease-out;
-    transition: all .5s ease-out;
+  // padding:0 10px;
+  padding: 0 rem(10);
+  overflow: hidden;
+  // border:1px solid #fff; /* Make the border match the background so it fades in nicely */
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  transition: all .5s ease-out;
 }
+
 // .accordion p {
 //     color:#333;
 //     margin:0 0 10px;
@@ -377,26 +389,33 @@
 
 /* Vertical */
 .vertical .accordion__list .accordion__item {
-    overflow:hidden;
-    margin:0 0 1px;
+  overflow: hidden;
+  margin: 0 0 1px;
 }
+
 .vertical .accordion__list .accordion__item label {
-    // padding:10px;
+  // padding:10px;
 }
-.vertical [type=radio]:checked ~ label, .vertical [type=checkbox]:checked ~ label {
-    border-bottom:0;
+
+.vertical [type=radio]:checked~label,
+.vertical [type=checkbox]:checked~label {
+  border-bottom: 0;
 }
+
 .vertical .accordion__list .accordion__item label :hover {
-      color: $hover-base;
-    // border:1px solid #542437; /* We don't want the border to disappear on hover */
+  color: $hover-base;
+  // border:1px solid #542437; /* We don't want the border to disappear on hover */
 }
+
 .vertical .accordion__list .accordion__item .content {
-    height:0px;
-    border-top:0;
+  height: 0px;
+  border-top: 0;
 }
-.vertical [type=radio]:checked ~ label ~ .content, .vertical [type=checkbox]:checked ~ label ~ .content {
-    height: auto;
-    // border:1px solid #542437;
+
+.vertical [type=radio]:checked~label~.content,
+.vertical [type=checkbox]:checked~label~.content {
+  height: auto;
+  // border:1px solid #542437;
 }
 
 @media (max-height: 1000px) {
@@ -595,28 +614,137 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 420px) {
 
-  .program-info-wrapper {
-    .col.text {
-      &.program-content {
-        h2 {
-          font-size: rem(54);
+  #program-info-container {
+    margin: 0;
+    margin-top: 40px;
+
+    .flex {
+      display: flex;
+      flex-wrap: wrap-reverse;
+      flex-direction: row;
+      flex-grow: 1;
+
+      .col.text {
+        width: 100%;
+        height: auto;
+        margin: 0 30px;
+
+        &.program-content {
+          margin-top: 30px;
+          margin-bottom: 25px;
+
+          h2 {
+            font-size: 30px;
+            b {
+            font-size: 30px;
+            }
+
+            &::before {
+              display: none;
+            }
+          }
+
+          p {
+            margin: 0;
+            font-weight: 500;
+            // margin-bottom: rem(5);
+            font-size: 15px;
+            line-height: 30px;
+          }
+
+          ul {
+            margin: 0;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            padding-left: 25px;
+
+            li {
+              font-size: 10px;
+              line-height: 1.3;
+            }
+          }
         }
-      }
 
         b {
           font-size: rem(54);
         }
+
+        p.asterisk {
+          padding-top: 25px;
+          padding-left: 0;
+          font-size: 9px;
+          line-height: 1.1;
+        }
+
+        b {
+          font-size: rem(64);
+        }
+      }
+
       .col.photo {
-        display: none;
+        position: relative;
+        width: 100%;
+        display: block;
+        height: auto;
+        right: 0;
+        top: 0;
+        transform: translateY(0);
+
+        .line-1,
+        .line-2,
+        .line-3,
+        .line-4 {
+          display: none;
+        }
+
+        .program-info__photo {
+          position: relative;
+
+          width: 100vw;
+
+          img {
+            margin: 0;
+            // max-height: rem(450);
+            width: 100vw;
+          }
+
+          &:after {
+            display: none;
+          }
+
+          &:before {
+            display: none;
+          }
+        }
       }
     }
 
-    .program-footer {
+    .flex:nth-child(1) {
+      order: 2;
+    }
+
+    .flex:nth-child(2) {
+      order: 1;
+    }
+
+.program-footer {
       bottom: 0;
       position: relative;
-      margin-top: 5px;
+      margin: 0 30px;
+  p {
+    margin: 0;
+    font-size: 10px;
+
+    a {
+      font-size: 10px;
     }
+
+    &.bold {
+      font-weight: 700;
+    }
+  }
+}
   }
 }
