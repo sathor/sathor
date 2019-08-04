@@ -216,11 +216,24 @@
   }
 }
 
-@media (max-width: 500px) {
-  .video-info-content {
 
+@media (max-width: 420px) {
+  #video-info-container {
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 0 15px;
+
+  }
+  .video-info-content {
     iframe {
-      height: 320px;
+      height: 160px;
+    }
+    .line-1, .line-3 {
+      height: 2px;
+    }
+    .line-2, .line-4 {
+      width: 2px;
     }
   }
 }
