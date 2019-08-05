@@ -540,6 +540,10 @@ input[type="radio"].visually-hidden {
 
 @media (max-width: 420px) {
   .connect {
+      img{
+        height: 545px;
+        width: auto;
+      }
     #connect-container {
       height: 545px;
       width: auto;
