@@ -538,10 +538,99 @@ input[type="radio"].visually-hidden {
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 420px) {
   .connect {
-    h3 {
-      font-size: rem(54);
+    #connect-container {
+      height: 545px;
+      width: auto;
+      margin: 0 30px;
+      padding: 0;
+
+      h3.white {
+        text-align: left;
+        margin: 50px 0;
+        font-size: 30px;
+      }
+
+      .connect__form {
+        padding: 0;
+
+        .input-wrapper {
+
+          input {
+            box-sizing: border-box;
+            font-size: 11px;
+            margin-bottom: 25px;
+            padding: 3px;
+
+            &::placeholder {
+              font-size: 11px;
+            }
+          }
+        }
+
+        #privacy-policy-label {
+          font-size: 11px;
+          margin-top: 36px;
+          margin-bottom: 30px;
+
+        }
+
+        label {
+          font-size: 8px;
+          padding-right: 35px;
+          margin-bottom: 20px;
+        }
+
+        .privicy-policy-checkbox input[type="checkbox"]+.checkbox-indicator {
+          position: absolute;
+          top: 0;
+          transform: translateY(0);
+          left: 0;
+          width: rem(15);
+          height: rem(15);
+          border: rem(2) solid #fff;
+
+        }
+      }
+
+      .button {
+        margin: 0;
+        font-size: 11px;
+        height: 38px;
+      }
+
+    }
+  }
+
+  .footer {
+    margin: 0;
+    width: 100%;
+
+    .flex {
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+
+      .contacts {
+        margin: 0 30px;
+        margin-bottom: 18px;
+        width: 100%;
+
+        p {
+          font-size: 8px;
+          text-align: left;
+          font-weight: 600;
+        }
+      }
+
+      .development {
+        display: none;
+      }
+
+      .socials-wrapper {
+        display: none;
+      }
     }
   }
 }
