@@ -655,8 +655,7 @@
     }
 
     .join.button {
-      left: 50%;
-      transform: translateX(-50%);
+      left: calc(50% - 135px/2);
       bottom: 0px;
     }
   }
