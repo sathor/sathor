@@ -13,7 +13,9 @@ const onWindowLoad = function () {
   }
 
   document.body.style.backgroundColor = 'white';
-  mainMenu.style.opacity = '1';
+  if (mainMenu) {
+    mainMenu.style.opacity = '1';
+  }
   pageContent.style.opacity = '1';
 }
 window.onload = onWindowLoad;

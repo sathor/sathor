@@ -463,16 +463,4 @@ $(document).ready(function () {
     handleFullPageToggle();
   })
 
-
-  var videoPlaceholder = document.querySelector('.video-info-placeholder');
-  var onVideoPlaceholderClick = function (evt) {
-    videoPlaceholder.style.display = 'none';
-
-    // var embedVideo = document.getElementById('embed-video');
-    // var innerDoc = embedVideo.contentDocument || embedVideo.contentWindow.document;
-    // console.log(innerDoc);
-    // var event = new Event("click");
-    // embedVideo.dispatchEvent(event);
-  }
-  videoPlaceholder.addEventListener('click', onVideoPlaceholderClick);
 });

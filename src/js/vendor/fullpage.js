@@ -687,7 +687,7 @@
         }
 
   window.mainMenu = document.getElementById('my-menu');
-  window.mainMenuParent = document;
+  window.mainMenuParent = document.querySelector('.header__inner');
   window.menuItems = Array.from(mainMenu.querySelectorAll('li'));
   document.body.appendChild(mainMenu);
   mainMenu.style.opacity = '0';
