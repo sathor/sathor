@@ -10,17 +10,64 @@ html {
   font-family: $mainFont;
   font-size: $mainFontSize;
   font-size: 100%;
+
   body {
     position: relative;
     height: 100%;
+    background-color: #000;
+
+    .header__menu {
+      @include header-menu;
+    }
   }
+
   // * {
   //   font-size: rem(14);
   //   box-sizing: border-box;
   // }
 }
 
-applet, body, div, iframe, object, span {
+.preloader {
+  height: 340px;
+  left: calc(50% - 75px);
+  position: absolute;
+  top: calc(50% - 170px);
+  transform: translate(-50%, -50%);
+  width: 150px;
+  background: url(../images/logo3.png) no-repeat center;
+  animation-duration: 2s;
+  animation-delay: 0.4s;
+  animation-iteration-count: infinite;
+}
+
+.preloader-wrapper {
+  background: #000;
+  bottom: 0;
+  height: 100vh;
+  left: 0;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: all .7s ease-in-out;
+  width: 100vw;
+  z-index: 1000;
+
+  &.opacity {
+    opacity: 0;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+applet,
+body,
+div,
+iframe,
+object,
+span {
   margin: 0;
   border: 0;
   padding: 0;
@@ -46,7 +93,11 @@ applet, body, div, iframe, object, span {
   margin: 0 0 rem(30);
 }
 
-blockquote, h3, h4, h5, h6 {
+blockquote,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
   border: 0;
@@ -55,13 +106,16 @@ blockquote, h3, h4, h5, h6 {
 
 blockquote {
   quotes: none;
-  &:before, &:after {
+
+  &:before,
+  &:after {
     content: "";
     content: none;
   }
 }
 
-a, pre {
+a,
+pre {
   margin: 0;
   padding: 0;
   border: 0;
@@ -71,12 +125,21 @@ a, pre {
 a {
   text-decoration: none;
   transition: all 0.4s ease-in-out;
+
   &:hover {
     transition: all 0.4s ease-in-out;
   }
 }
 
-abbr, acronym, address, big, cite, code, del, dfn, em {
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em {
   margin: 0;
   padding: 0;
   border: 0;
@@ -93,7 +156,8 @@ img {
   max-width: 100%;
 }
 
-ins, kbd {
+ins,
+kbd {
   margin: 0;
   padding: 0;
   border: 0;
@@ -106,13 +170,38 @@ q {
   border: 0;
   vertical-align: baseline;
   quotes: none;
-  &:before, &:after {
+
+  &:before,
+  &:after {
     content: "";
     content: none;
   }
 }
 
-b, center, dd, dl, dt, fieldset, form, i, label, legend, li, ol, s, samp, small, strike, strong, sub, sup, table, tt, u, ul, var {
+b,
+center,
+dd,
+dl,
+dt,
+fieldset,
+form,
+i,
+label,
+legend,
+li,
+ol,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+table,
+tt,
+u,
+ul,
+var {
   margin: 0;
   padding: 0;
   border: 0;
@@ -124,18 +213,27 @@ table {
   border-spacing: 0;
 }
 
-caption, tbody, td, tfoot, th, thead, tr {
+caption,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
   margin: 0;
   padding: 0;
   border: 0;
   vertical-align: baseline;
 }
 
-article, aside {
+article,
+aside {
   display: block;
 }
 
-article, aside, canvas {
+article,
+aside,
+canvas {
   margin: 0;
   padding: 0;
   border: 0;
@@ -156,11 +254,13 @@ embed {
   vertical-align: baseline;
 }
 
-figcaption, figure {
+figcaption,
+figure {
   margin: 0;
 }
 
-figcaption, figure {
+figcaption,
+figure {
   padding: 0;
   border: 0;
   display: block;
@@ -174,11 +274,19 @@ footer {
   margin: 0 0 rem(10);
 }
 
-header, hgroup, menu, nav {
+header,
+hgroup,
+menu,
+nav {
   display: block;
 }
 
-header, hgroup, menu, nav, output, ruby {
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby {
   margin: 0;
   padding: 0;
   border: 0;
@@ -193,14 +301,19 @@ section {
   display: block;
 }
 
-audio, mark, summary, time, video {
+audio,
+mark,
+summary,
+time,
+video {
   margin: 0;
   padding: 0;
   border: 0;
   vertical-align: baseline;
 }
 
-:before, :after {
+:before,
+:after {
   box-sizing: border-box;
 }
 
@@ -218,13 +331,20 @@ input {
   -moz-appearance: none;
   appearance: none;
   outline: none;
+
   * {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     outline: none;
   }
-  :focus, :hover, :active, &:focus, &:hover, &:active {
+
+  :focus,
+  :hover,
+  :active,
+  &:focus,
+  &:hover,
+  &:active {
     outline: none;
   }
 }
@@ -234,13 +354,20 @@ button {
   -moz-appearance: none;
   appearance: none;
   outline: none;
+
   * {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     outline: none;
   }
-  :focus, :hover, :active, &:focus, &:hover, &:active {
+
+  :focus,
+  :hover,
+  :active,
+  &:focus,
+  &:hover,
+  &:active {
     outline: none;
   }
 }

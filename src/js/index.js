@@ -6,9 +6,10 @@ import '../scss/main.scss';
 // import '../css/main.css';
 
 
+import '../js/modules/preloader';
 import '../js/vendor/jquery';
 // import '../js/vendor/select2';
-import '../js/vendor/progressbar';
+// import '../js/vendor/progressbar';
 // import '../js/vendor/slick';
 import '../js/vendor/trunk8';
 import '../js/vendor/fullpage';

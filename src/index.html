@@ -9,10 +9,11 @@
 </head>
 
 <body class="">
-  <div class="preloader-wrapper">
-    <div class="preloader" id="container"></div>
+  <div class="preloader-wrapper" id="page-preloader">
+    <div class="preloader animated pulse" id="container"></div>
   </div>
-  <div id="fullpage">
+
+  <div class="hide" id="fullpage">
     <div class="content-wrapper">
       <div class="main-block section" id="main-block" data-anchor="main-block">
         <header class="header">
@@ -24,12 +25,12 @@
               <label for="burger"></label>
             </div>
             <ul class="header__menu" id="my-menu">
-              <li data-menuanchor='sixthSection' class="active"><a href="#sixthSection">Приєднатися</a></li>
+              <li data-menuanchor='sixthSection'><a href="#sixthSection">Приєднатися</a></li>
               <li data-menuanchor='fifthSection'><a href="#fifthSection">Локація</a></li>
               <li data-menuanchor='fourthSection'><a href="#fourthSection">Програма</a></li>
               <li data-menuanchor='thirdSection'><a href="#thirdSection">Реєстрація</a></li>
               <li data-menuanchor='secondSection'><a href="#secondSection">Можливості</a></li>
-              <li data-menuanchor='firstSection'><a href="#firstSection">Головна</a></li>
+              <li data-menuanchor='firstSection'><a href="#firstSection" class="active">Головна</a></li>
             </ul>
           </div>
         </header>
@@ -74,7 +75,10 @@
             <div class="line-2"><i></i></div>
             <div class="line-3"><i></i></div>
             <div class="line-4"><i></i></div>
-            <iframe src="https://www.youtube.com/embed/-MpNVnnN788" frameborder="0"
+            <div class="video-info-placeholder">
+              <div class="video-play"></div>
+            </div>
+            <iframe id="embed-video" src="https://www.youtube.com/embed/-MpNVnnN788?color=white&rel=0" frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <!-- <img src="images/video_poster.png"> -->
           </div>

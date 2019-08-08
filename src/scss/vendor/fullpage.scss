@@ -196,7 +196,7 @@ html.fp-enabled {
           height: 4px;
           width: 4px;
           border: 0;
-          background: #333;
+          background: $hover-base;
           left: 50%;
           top: 50%;
           margin: -2px 0 0 -2px;
@@ -232,6 +232,10 @@ html.fp-enabled {
         }
 
         .fp-tooltip {
+          font-size: rem(10);
+          text-transform: uppercase;
+          font-family: $mainFont;
+          color: $hover-base;
           transition: opacity 0.2s ease-in;
           width: auto;
           opacity: 1;

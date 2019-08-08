@@ -684,7 +684,12 @@
 					if (options.verticalCentered) {
 						addTableClass(section);
 					}
-				}
+        }
+
+  window.mainMenu = document.getElementById('my-menu');
+  window.mainMenuParent = document.querySelector('.header__inner');
+  window.menuItems = Array.from(mainMenu.querySelectorAll('li'));
+  document.body.appendChild(mainMenu);
 			});
 
 			//fixed elements need to be moved out of the plugin container due to problems with CSS3.
@@ -1459,6 +1464,7 @@
 		 * Performs the vertical movement (by CSS3 or by jQuery)
 		 */
 		function performMovement(v) {
+      
 			// using CSS3 translate functionality
 			if (options.css3 && options.autoScrolling && !options.scrollBar) {
 
@@ -1603,7 +1609,7 @@
 
 			canScroll = true;
 
-			$.isFunction(v.callback) && v.callback.call(this);
+      $.isFunction(v.callback) && v.callback.call(this);
 		}
 
 		/**
@@ -2420,7 +2426,17 @@
 				//section without slides
 				else {
 					setUrlHash(anchorLink);
-				}
+        }
+        //   let leftNavBar = document.getElementById('fp-nav');
+        //   if (window.innerWidth >= 850) {
+        // if(sectionIndex != 0) {
+        //   leftNavBar.style.display = 'block';
+        // }else{
+        //   leftNavBar.style.display = 'none';
+        // }
+        // }else{
+        //   leftNavBar.style.display = 'none';
+        // }
 			}
 
 			setBodyClass();

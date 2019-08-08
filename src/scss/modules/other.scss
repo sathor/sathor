@@ -323,32 +323,6 @@ a {
   }
 }
 
-.preloader {
-  height: 200px;
-  left: 50%;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 200px;
-}
-
-.preloader-wrapper {
-  background: #000;
-  bottom: 0;
-  height: 100vh;
-  left: 0;
-  overflow: hidden;
-  position: fixed;
-  right: 0;
-  top: 0;
-  transition: all .7s ease-in-out;
-  width: 100vw;
-  z-index: 99;
-
-  &.opacity {
-    opacity: 0;
-  }
-}
 
 
 .success-form-callback {

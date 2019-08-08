@@ -3,20 +3,88 @@
   @if (unitless($pixels)) {
     $pixels: $pixels * 1px;
   }
+
   @if (unitless($context)) {
     $context: $context * 1px;
   }
+
   @return $pixels / $context * 1rem;
 }
 
-@mixin size($width,$height: $width) {
+@mixin size($width, $height: $width) {
   width: $width;
   height: $height;
 }
 
 @mixin placeholder {
-  ::-webkit-input-placeholder {@content}
-  :-moz-placeholder           {@content}
-  ::-moz-placeholder          {@content}
-  :-ms-input-placeholder      {@content}
+  ::-webkit-input-placeholder {
+    @content
+  }
+
+  :-moz-placeholder {
+    @content
+  }
+
+  ::-moz-placeholder {
+    @content
+  }
+
+  :-ms-input-placeholder {
+    @content
+  }
+}
+
+@mixin header-menu  {
+  padding: rem(14) rem(35);
+  background: #000;
+  left: -1px;
+  max-width: 100vh;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  transform: rotate(-90deg) translate(-100%);
+  transform-origin: 0 0 0;
+  z-index: 101;
+  text-align: right;
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    font-size: rem(11);
+    margin: 0 rem(14);
+    padding: rem(12) 0;
+    color: #fff;
+    // color: hsla(0, 0%, 100%, 0.5);
+    cursor: pointer;
+    display: block;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+    transition: all 0.6s ease-in-out;
+
+    &:before {
+      content: "";
+      display: block;
+      height: 1px;
+      left: 0;
+      position: absolute;
+      top: 0;
+      transition: all .5s ease-in-out;
+      width: 24px;
+      z-index: 3;
+    }
+
+    &:hover,
+    &.active {
+      color: $hover-base;
+      transition: all 0.6s ease-in-out;
+
+      &:before {
+        background-color: $hover-base;
+      }
+    }
+  }
 }
