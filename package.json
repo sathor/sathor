@@ -48,6 +48,7 @@
     "imports-loader": "^0.8.0",
     "jquery": "^3.4.1",
     "jquery-parallax.js": "^1.5.0",
+    "lazyframe": "^1.1.6",
     "postcss-preset-env": "^6.6.0",
     "promise-polyfill": "8.1.0",
     "simple-parallax-js": "^5.1.0",

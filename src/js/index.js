@@ -13,9 +13,10 @@ import '../js/vendor/jquery';
 // import '../js/vendor/slick';
 import '../js/vendor/trunk8';
 import '../js/vendor/fullpage';
+import lazyframe from 'lazyframe';
 import './modules/main';
 
-
+lazyframe('.lazyframe');
 // import simpleParallax from 'simple-parallax-js';
 
 // var images = document.querySelectorAll('.parallax');

@@ -165,6 +165,9 @@
 }
 
 @media (max-width: 420px) {
+  .lazyframe__title {
+    display: none;
+  }
   #registration-info-container {
     margin: 0 30px;
     margin-top: 15px;

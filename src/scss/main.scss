@@ -14,8 +14,10 @@
 @import "modules/other";
 /*
 @import "modules/responsive";
+@import '~lazyframe/src/scss/lazyframe';
 */
 
+@import "vendor/lazyframe";
 @import "vendor/font-awesome";
 @import "vendor/_bootstrap";
 @import "vendor/animation";
