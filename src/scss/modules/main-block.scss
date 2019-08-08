@@ -338,6 +338,16 @@
 
 @media (max-width: 850px) {
 
+  #my-menu {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+
+    li{
+      width: 100%;
+      text-align: right;
+    }
+  }
   .header {
     padding-top: 60px;
     position: fixed;
@@ -376,6 +386,9 @@
 
         a {
           font-size: 16px;
+          &::before{
+            display: none;
+          }
         }
       }
     }
@@ -631,5 +644,17 @@
     display: none;
     justify-content: center;
     background-color: transparent;
+  }
+  #my-menu {
+    height: 480px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+
+    li{
+      height: 15px;
+      width: 100%;
+      text-align: right;
+    }
   }
 }
