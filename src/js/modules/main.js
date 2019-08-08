@@ -257,16 +257,16 @@ $(document).ready(function () {
       // bar.text.style.fontSize = '24px';
       // bar.animate(1.0);
 
-      setTimeout(function () {
-        // $('.preloader-wrapper').addClass('opacity');
-        $('.header__logo').addClass('fadeIn animated');
-        $('.header__logo-2').addClass('fadeIn animated');
-        $('.header__language').addClass('fadeIn animated');
-        $('.main h1').addClass('bounceInLeft animated');
-        $('.main .join').addClass('bounceInLeft animated');
-        $('.main-description').addClass('bounceInLeft animated');
-        $('.main .socials-wrapper').addClass('fadeIn animated');
-      }, 3000);
+      // setTimeout(function () {
+      //   // $('.preloader-wrapper').addClass('opacity');
+      //   $('.header__logo').addClass('fadeIn animated');
+      //   $('.header__logo-2').addClass('fadeIn animated');
+      //   $('.header__language').addClass('fadeIn animated');
+      //   $('.main h1').addClass('bounceInLeft animated');
+      //   $('.main .join').addClass('bounceInLeft animated');
+      //   $('.main-description').addClass('bounceInLeft animated');
+      //   $('.main .socials-wrapper').addClass('fadeIn animated');
+      // }, 3000);
 
       // setTimeout(function () {
       //   $('.preloader-wrapper').css('display', 'none');
