@@ -126,7 +126,7 @@ $(document).ready(function () {
         menu: '#myMenu',
         responsiveWidth: 1200,
         scrollingSpeed: 1100,
-        navigation: true,
+        navigation: false,
         navigationPosition: 'left',
         navigationTooltips: ['Головна', '', 'Можливості', '', 'Реєстрація', 'Програма', 'Локація', 'Приєднатися'],
         showActiveTooltip: false,

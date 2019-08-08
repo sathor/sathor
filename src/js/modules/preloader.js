@@ -11,11 +11,10 @@ const onWindowLoad = function () {
   if (!preloader.classList.contains('hide')) {
     preloader.classList.add('hide');
   }
-  pageContent.classList.remove('hide');
-  document.body.style.backgroundColor = 'white';
 
-  let leftNavBar = document.getElementById('fp-nav');
-  leftNavBar.style.display = 'none';
+  document.body.style.backgroundColor = 'white';
+  mainMenu.style.opacity = '1';
+  pageContent.style.opacity = '1';
 }
 window.onload = onWindowLoad;
 

@@ -687,9 +687,10 @@
         }
 
   window.mainMenu = document.getElementById('my-menu');
-  window.mainMenuParent = document.querySelector('.header__inner');
+  window.mainMenuParent = document;
   window.menuItems = Array.from(mainMenu.querySelectorAll('li'));
   document.body.appendChild(mainMenu);
+  mainMenu.style.opacity = '0';
 			});
 
 			//fixed elements need to be moved out of the plugin container due to problems with CSS3.
