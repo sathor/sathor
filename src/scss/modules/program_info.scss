@@ -207,7 +207,25 @@
       // margin-bottom: rem(5);
       font-size: rem(32);
       text-transform: uppercase;
-      line-height: 1.5;
+      line-height: rem(48);
+      padding-left: rem(36);
+
+      &::before {
+        position: absolute;
+        content: "";
+        top: rem(24);
+        left: rem(2);
+        background: #000;
+        width: rem(26);
+        height: rem(3);
+        transition: all .5s ease-in-out;
+      }
+
+      &:hover::before {
+        background-color: #feb404;
+        transform: rotate(-45deg);
+        transition: all 0.5s ease-in-out;
+      }
     }
 
     ul {
@@ -229,6 +247,10 @@
     padding-left: rem(30);
     font-size: rem(13);
     line-height: 1.1;
+
+    &::before {
+      display: none;
+    }
   }
 
   b {
@@ -332,6 +354,7 @@
 .accordion .accordion__item {
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 .accordion [type=radio],
@@ -399,7 +422,13 @@
 
 .vertical [type=radio]:checked~label,
 .vertical [type=checkbox]:checked~label {
+  color: $hover-base;
   border-bottom: 0;
+  p::before {
+        background-color: #feb404;
+        transform: rotate(-45deg);
+        transition: all 0.5s ease-in-out;
+      }
 }
 
 .vertical .accordion__list .accordion__item label :hover {
@@ -412,8 +441,7 @@
   border-top: 0;
 }
 
-.vertical [type=radio]:checked~label~.content,
-.vertical [type=checkbox]:checked~label~.content {
+.vertical [type=radio]:checked~label~.content, .vertical [type=checkbox]:checked~label~.content {
   height: auto;
   // border:1px solid #542437;
 }
@@ -637,8 +665,9 @@
 
           h2 {
             font-size: 30px;
+
             b {
-            font-size: 30px;
+              font-size: 30px;
             }
 
             &::before {
@@ -729,22 +758,23 @@
       order: 1;
     }
 
-.program-footer {
+    .program-footer {
       bottom: 0;
       position: relative;
       margin: 0 30px;
-  p {
-    margin: 0;
-    font-size: 10px;
 
-    a {
-      font-size: 10px;
-    }
+      p {
+        margin: 0;
+        font-size: 10px;
 
-    &.bold {
-      font-weight: 700;
+        a {
+          font-size: 10px;
+        }
+
+        &.bold {
+          font-weight: 700;
+        }
+      }
     }
-  }
-}
   }
 }
