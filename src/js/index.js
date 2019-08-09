@@ -1,5 +1,7 @@
 // import '../css/reset.css';
 import '../scss/main.scss';
+import 'swiper/dist/css/swiper.css';
+// import '../css/css_1.css';
 // import '../css/css_1.css';
 // import '../css/css.css';
 // import '../css/fonts.css';
