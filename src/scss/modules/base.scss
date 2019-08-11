@@ -14,7 +14,7 @@ html {
   body {
     position: relative;
     height: 100%;
-    background-color: #000;
+    // background-color: #000;
 
     .header__menu {
       @include header-menu;
@@ -32,12 +32,24 @@ html {
   left: calc(50% - 75px);
   position: absolute;
   top: calc(50% - 170px);
-  transform: translate(-50%, -50%);
+  // transform: translate(-50%, -50%);
   width: 150px;
-  background: url(../images/logo3.png) no-repeat center;
-  animation-duration: 2s;
-  animation-delay: 0.4s;
-  animation-iteration-count: infinite;
+  // animation-duration: 2s;
+  // animation-delay: 0.4s;
+  // animation-iteration-count: infinite;
+}
+
+.preloader-logo {
+  position: absolute;
+  height: 340px;
+  width: 150px;
+  left: 0;
+  bottom: 0;
+  background: url(../images/logo3.png) no-repeat;
+  background-position: center bottom;
+  background-size: 150px 340px;
+  transition: height 1.5s ease;
+  overflow: hidden;
 }
 
 .preloader-wrapper {
@@ -49,7 +61,7 @@ html {
   position: fixed;
   right: 0;
   top: 0;
-  transition: all .7s ease-in-out;
+  // transition: display 2s ease-out;
   width: 100vw;
   z-index: 1000;
 
@@ -60,6 +72,10 @@ html {
 
 .hide {
   display: none;
+}
+
+#fullpage {
+  transition: opacity 1.5s ease-out;
 }
 
 applet,
