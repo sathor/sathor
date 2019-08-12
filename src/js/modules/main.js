@@ -458,6 +458,9 @@ $(document).ready(function () {
       }
       document.body.appendChild(mainMenu);
     }
+    if (window.innerWidth <= 420) {
+
+    }
   }
 
   handleFullPageToggle();
@@ -469,7 +472,7 @@ $(document).ready(function () {
     spaceBetween: 0,
     centeredSlides: true,
     autoplay: {
-      delay: 2500,
+      delay: 3500,
       disableOnInteraction: false,
     },
     pagination: {
