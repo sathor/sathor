@@ -471,17 +471,21 @@ $(document).ready(function () {
   var locationSlider = new Swiper('.swiper-container', {
     spaceBetween: 0,
     centeredSlides: true,
-    autoplay: {
-      delay: 3500,
-      disableOnInteraction: false,
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
+    loop: true,
+    // autoplay: {
+    //   delay: 3500,
+    //   disableOnInteraction: false,
+    // },
+    autoplay: false,
+    // pagination: {
+    //   el: '.swiper-pagination',
+    //   clickable: true,
+    // },
+    pagination: false,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
+      hideOnClick: false
     },
   });
 });
