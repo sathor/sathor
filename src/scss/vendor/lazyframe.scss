@@ -1,14 +1,14 @@
 .lazyframe {
   position: relative;
 
-  background-color: currentColor;
+  background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
   &__title{
     position: absolute;
     top: 0; left: 0; right: 0;
     padding: 15px 17px;
-    z-index: 3;
+    z-index: 1;
 
     &:after{
       z-index: -1;
@@ -45,8 +45,9 @@
   background-color: $hover-base;
   font-family: $mainFont;
   text-transform: uppercase;
-  background: url(../images/video_block.jpg);
-  background-size: cover;
+  background: url(../images/logo3.png) no-repeat;
+  background-size: 25% 95%;
+  background-position: center center;
 
   .lazyframe__title{
     color: rgb(238, 238, 238);
