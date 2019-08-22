@@ -12,7 +12,7 @@ function onWindowLoad() {
     imageClone.onload = onImageLoad;
     imageClone.onerror = onImageLoad;
     imageClone.src = el.src;
-  })
+  });
 
   function onImageLoad() {
     imagesCount++;
