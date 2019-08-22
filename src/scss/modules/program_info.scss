@@ -291,31 +291,31 @@
     width: 100%;
   }
 
-  &:after {
-    height: rem(75);
-    content: "";
-    display: block;
-    left: 0;
-    position: absolute;
-    width: 101%;
-    z-index: 1;
-    background: url(../images/bottom-border.png) no-repeat bottom;
-    background-size: contain;
-    bottom: 0;
-  }
+  // &:after {
+  //   height: rem(75);
+  //   content: "";
+  //   display: block;
+  //   left: 0;
+  //   position: absolute;
+  //   width: 101%;
+  //   z-index: 1;
+  //   background: url(../images/bottom-border.png) no-repeat bottom;
+  //   background-size: contain;
+  //   bottom: 0;
+  // }
 
-  &:before {
-    height: rem(75);
-    content: "";
-    display: block;
-    left: 0;
-    position: absolute;
-    width: 101%;
-    z-index: 1;
-    background: url(../images/top-border.png) no-repeat top;
-    background-size: contain;
-    top: 0;
-  }
+  // &:before {
+  //   height: rem(75);
+  //   content: "";
+  //   display: block;
+  //   left: 0;
+  //   position: absolute;
+  //   width: 101%;
+  //   z-index: 1;
+  //   background: url(../images/top-border.png) no-repeat top;
+  //   background-size: contain;
+  //   top: 0;
+  // }
 }
 
 
@@ -424,11 +424,12 @@
 .vertical [type=checkbox]:checked~label {
   color: $hover-base;
   border-bottom: 0;
+
   p::before {
-        background-color: #feb404;
-        transform: rotate(-45deg);
-        transition: all 0.5s ease-in-out;
-      }
+    background-color: #feb404;
+    transform: rotate(-45deg);
+    transition: all 0.5s ease-in-out;
+  }
 }
 
 .vertical .accordion__list .accordion__item label :hover {
@@ -441,7 +442,8 @@
   border-top: 0;
 }
 
-.vertical [type=radio]:checked~label~.content, .vertical [type=checkbox]:checked~label~.content {
+.vertical [type=radio]:checked~label~.content,
+.vertical [type=checkbox]:checked~label~.content {
   height: auto;
   // border:1px solid #542437;
 }
