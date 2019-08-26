@@ -265,6 +265,7 @@
 
 .program-footer {
   position: absolute;
+  left: 50%;
   bottom: rem(40);
   margin-top: rem(50);
 
@@ -532,6 +533,11 @@
 //   }
 // }
 // }
+@media (max-width: 1440px) and (max-height: 700px) {
+  .program-footer {
+    bottom: rem(20);
+  }
+}
 
 @media (max-width: 1366px) and (max-height: 700px) {
 
@@ -638,6 +644,7 @@
   }
 
   .program-footer {
+    left: 0;
     bottom: 0;
     position: relative;
     margin-top: 5px;
