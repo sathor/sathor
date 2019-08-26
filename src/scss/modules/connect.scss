@@ -10,7 +10,7 @@
   position: relative;
 
   h3 {
-    margin-top: rem(90);
+    margin-top: rem(80);
     font-size: rem(64);
     font-weight: 500;
     text-align: center;
@@ -107,13 +107,13 @@
 
 .connect__form {
   max-width: rem(620);
-  padding-top: rem(60);
+  padding-top: rem(50);
   margin-left: auto;
   margin-right: auto;
 
   #privacy-policy-label {
     font-size: rem(16);
-    margin-top: rem(60);
+    margin-top: rem(40);
     margin-bottom: rem(40);
 
   }
@@ -203,11 +203,11 @@
 
   >.flex {
     flex-wrap: wrap;
-    justify-content: space-between;
+    // justify-content: space-between;
   }
 
   .contacts {
-    width: 35%;
+    width: 30%;
     color: #fff;
 
     p {
@@ -227,19 +227,29 @@
     }
   }
 
-  .socials-wrapper {
-    width: 35%;
-    margin: 0;
+  // .socials-wrapper {
+  //   width: 30%;
+  //   margin: 0;
+  //   justify-content: flex-end;
+  //   align-items: flex-end;
+
+  //   a {
+  //     margin: 0 0.75rem;
+  //   }
+  // }
+  .rights {
+    width: 25%;
     justify-content: flex-end;
     align-items: flex-end;
 
-    a {
-      margin: 0 0.75rem;
+    p {
+      margin: 0;
+      text-align: right;
     }
   }
 
   .development {
-    width: 30%;
+    width: 45%;
 
     // .line-hor {
     //   height: 45px;
@@ -539,7 +549,7 @@ input[type="radio"].visually-hidden {
       align-items: center;
 
       .contacts {
-        order: 1;
+        order: 2;
         width: 100%;
 
         p {
@@ -548,14 +558,19 @@ input[type="radio"].visually-hidden {
       }
 
       .development {
-        order: 3;
-        width: 100%;
+        order: 1;
+        width: 372px;
+        margin-bottom: 30px;
       }
 
-      .socials-wrapper {
-        order: 2;
+      .rights {
+        order: 3;
         width: 100%;
         margin: 10px 0;
+
+        p {
+          text-align: center;
+        }
       }
     }
   }
@@ -576,7 +591,8 @@ input[type="radio"].visually-hidden {
 
       h3.white {
         text-align: left;
-        margin: 50px 0;
+        margin-top: 50px;
+        margin-bottom: 40px;
         font-size: 30px;
       }
 
@@ -599,8 +615,7 @@ input[type="radio"].visually-hidden {
 
         #privacy-policy-label {
           font-size: 11px;
-          margin-top: 36px;
-          margin-bottom: 30px;
+          margin: 25px 0;
 
         }
 
@@ -653,10 +668,12 @@ input[type="radio"].visually-hidden {
       }
 
       .development {
-        display: none;
+        margin: 0 30px;
+        margin-bottom: 15px;
+        width: 100%;
       }
 
-      .socials-wrapper {
+      .rights {
         display: none;
       }
     }
